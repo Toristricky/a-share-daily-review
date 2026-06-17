@@ -12,6 +12,7 @@ from openpyxl import load_workbook
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 DATA_FILE = DATA_DIR / "review.json"
+DATA_JS_FILE = DATA_DIR / "review-data.js"
 HISTORY_FILE = DATA_DIR / "history.json"
 LOG_FILE = BASE_DIR / "refresh.log"
 WORKBOOK_FILE = BASE_DIR / "每日A股复盘表.xlsx"
@@ -24,26 +25,33 @@ SINA_HEADERS = {
 }
 
 CONCEPT_RULES = [
-    ("CPO/光通信", ["太辰光", "光库科技", "长进光子", "铭普光磁", "通鼎互联", "欧陆通", "长盈通"]),
-    ("半导体", ["南芯科技", "雅创电子", "大普微", "中巨芯", "云汉芯城", "华兴源创", "康强电子"]),
-    ("PCB", ["本川智能", "逸豪新材", "胜蓝股份", "红板科技", "中京电子", "崇达技术", "沪电股份"]),
-    ("消费电子", ["精研科技", "胜蓝股份", "雅创电子", "达瑞电子", "长信科技", "隆扬电子"]),
+    ("CPO/光通信", ["太辰光", "光库科技", "长进光子", "铭普光磁", "通鼎互联", "欧陆通", "长盈通", "杭电股份"]),
+    ("半导体", ["南芯科技", "雅创电子", "大普微", "中巨芯", "云汉芯城", "华兴源创", "康强电子", "普冉股份", "兆易创新", "香农芯创", "飞天诚信"]),
+    ("半导体设备/先进封装", ["盛美上海", "盛剑科技", "亚翔集成", "赛腾股份", "铂力特", "锐翔智能"]),
+    ("PCB", ["本川智能", "逸豪新材", "胜蓝股份", "红板科技", "中京电子", "崇达技术", "沪电股份", "科翔股份", "一博科技", "深南电路", "超声电子", "鹏鼎控股", "华正新材", "宏昌电子"]),
+    ("消费电子", ["精研科技", "胜蓝股份", "雅创电子", "达瑞电子", "长信科技", "隆扬电子", "光弘科技", "美迪凯", "昀冢科技", "智微智能", "联域股份"]),
+    ("面板/显示", ["TCL科技", "京东方", "深天马", "彩虹股份", "沃格光电", "莱宝高科", "凯盛科技", "长信科技"]),
     ("机器人", ["德恩精工", "先导智能", "科大智能", "乔锋智能", "安达智能", "正业科技"]),
     ("智能制造", ["德恩精工", "先导智能", "科大智能", "乔锋智能", "安达智能", "通用电梯"]),
     ("工业母机", ["德恩精工", "鑫宏业", "乔锋智能", "恒锋工具"]),
-    ("汽车零部件", ["肇民科技", "胜蓝股份", "瑞玛精密", "华锋股份", "星徽股份", "宏达电子"]),
+    ("汽车零部件", ["肇民科技", "胜蓝股份", "瑞玛精密", "华锋股份", "星徽股份", "宏达电子", "三联锻造", "华阳集团", "永贵电器"]),
     ("铜连接/高速连接", ["胜蓝股份", "雅创电子", "本川智能", "太辰光", "鑫宏业", "逸豪新材"]),
     ("电梯", ["通用电梯", "快意电梯"]),
     ("水利/泵阀", ["南方泵业", "三川智慧", "南方泵业"]),
     ("商业零售", ["供销大集", "张小泉", "金马游乐"]),
-    ("新材料", ["金戈新材", "逸豪新材", "同宇新材", "国际复材", "锦华新材", "有研粉材", "有研复材"]),
-    ("复合材料", ["国际复材", "同宇新材", "锦华新材", "金戈新材"]),
+    ("新材料/化工", ["金戈新材", "逸豪新材", "同宇新材", "国际复材", "锦华新材", "有研粉材", "有研复材", "金博股份", "瑞华泰", "泰和新材", "光华科技", "诺德股份", "昊华科技", "东阳光", "再升科技", "铜峰电子", "江海股份", "艾华集团", "海星股份", "温州宏丰", "中材科技", "中国巨石", "九鼎新材"]),
+    ("建材/玻璃", ["科顺股份", "凯盛新能", "旗滨集团", "蒙娜丽莎", "上峰材料", "中国巨石", "中材科技", "凯盛科技"]),
+    ("复合材料", ["国际复材", "同宇新材", "锦华新材", "金戈新材", "中国巨石", "中材科技", "九鼎新材", "泰和新材"]),
     ("锂电池", ["亿纬锂能", "珠海冠宇", "多氟多", "盛新锂能", "天山铝业", "先导智能"]),
     ("固态电池", ["亿纬锂能", "珠海冠宇", "多氟多", "先导智能"]),
     ("专精特新", ["金戈新材", "鸿仕达", "德恩精工", "南芯科技", "长进光子", "雅创电子", "本川智能", "逸豪新材"]),
     ("北交所", ["金戈新材", "鸿仕达", "新睿电子", "戈碧迦", "锦华新材"]),
     ("ST摘帽/重整", ["ST南都", "ST南新", "退市岩石", "*ST", "ST"]),
     ("大消费", ["张小泉", "供销大集", "金马游乐"]),
+    ("医药/消费", ["海辰药业", "粤万年青", "正川股份", "康惠股份", "莲花控股", "爱普股份", "安德利", "大连友谊", "嘉欣丝绸", "南卫股份"]),
+    ("基建工程", ["中国化学", "勘设股份", "镇海股份", "中化装备", "中核科技", "江钨装备", "长城电工", "展鹏科技"]),
+    ("能源/油气", ["中远海能", "贝肯能源", "滨海能源", "冰轮环境"]),
+    ("纺织检测", ["中纺标", "天纺标", "嘉欣丝绸", "欣龙控股"]),
     ("AI算力", ["云天励飞", "格灵深瞳", "华曙高科", "科大智能", "依米康"]),
     ("低空经济/航空航天", ["超卓航科", "宏达电子", "宗申动力"]),
 ]
@@ -51,8 +59,10 @@ CONCEPT_RULES = [
 CONCEPT_REASON = {
     "CPO/光通信": "AI算力需求带动高速光模块、光通信链条活跃",
     "半导体": "国产替代与AI硬件需求共振，资金关注芯片设计/设备材料",
+    "半导体设备/先进封装": "半导体设备、洁净室和先进制造环节受资金追捧",
     "PCB": "AI服务器与高速连接需求改善，PCB/铜连接方向走强",
     "消费电子": "端侧AI、连接器和零部件弹性带动消费电子修复",
+    "面板/显示": "面板、显示模组和光电链条放量走强",
     "机器人": "机器人产业催化持续，执行器、控制、设备方向活跃",
     "智能制造": "自动化设备和制造升级主题扩散",
     "工业母机": "高端制造设备、机床和自动化方向资金回流",
@@ -61,7 +71,8 @@ CONCEPT_REASON = {
     "电梯": "设备更新和低位补涨资金关注",
     "水利/泵阀": "水利建设、设备更新和泵阀方向异动",
     "商业零售": "消费复苏预期和低价题材活跃",
-    "新材料": "高端制造材料、复合材料和涨价线索驱动",
+    "新材料/化工": "高端制造材料、化工材料和涨价线索驱动",
+    "建材/玻璃": "玻璃、建材和防水材料方向低位修复",
     "复合材料": "轻量化和高端制造材料方向受关注",
     "锂电池": "新能源产业链反弹，电池和材料方向修复",
     "固态电池": "固态电池产业化预期带动材料与设备方向",
@@ -69,6 +80,10 @@ CONCEPT_REASON = {
     "北交所": "北交所高弹性品种活跃，短线情绪扩散",
     "ST摘帽/重整": "重整、摘帽和低价修复预期带动",
     "大消费": "消费修复和低价消费题材活跃",
+    "医药/消费": "医药、食品消费和低位消费题材活跃",
+    "基建工程": "基建工程、工业装备和设备更新方向走强",
+    "能源/油气": "能源运输、油气设备和传统能源方向异动",
+    "纺织检测": "北交所高弹性与纺织检测细分方向活跃",
     "AI算力": "算力投资和AI应用扩散带动硬件链条",
     "低空经济/航空航天": "低空经济政策和产业化预期反复活跃",
     "其他涨停": "单股事件、低位补涨或暂未归入主线概念",
@@ -91,7 +106,7 @@ def fetch_json(url, params):
             "Referer": "https://quote.eastmoney.com/",
         },
     )
-    with urllib.request.urlopen(req, timeout=8) as resp:
+    with urllib.request.urlopen(req, timeout=20) as resp:
         return json.loads(resp.read().decode("utf-8"))
 
 
@@ -106,7 +121,7 @@ def fetch_text(url, params=None, headers=None, encoding="utf-8"):
             "Referer": "https://quote.eastmoney.com/",
         },
     )
-    with urllib.request.urlopen(req, timeout=8) as resp:
+    with urllib.request.urlopen(req, timeout=20) as resp:
         return resp.read().decode(encoding, errors="ignore")
 
 
@@ -235,7 +250,7 @@ def get_sina_indices():
 
 def get_a_shares():
     if USE_FAST_FALLBACK:
-        return get_sina_rank("changepercent", 0, 180)
+        return get_sina_rank_pages("changepercent", 0, max_pages=4, stop_below=4.8)
     try:
         data = fetch_json(
             "https://push2.eastmoney.com/api/qt/clist/get",
@@ -309,6 +324,65 @@ def get_sina_rank(sort, asc, count=80):
         }
         for r in rows
     ]
+
+
+def get_sina_rank_pages(sort, asc, max_pages=4, stop_below=None):
+    stocks = []
+    seen = set()
+    for page in range(1, max_pages + 1):
+        try:
+            raw = fetch_text(
+                "http://vip.stock.finance.sina.com.cn/quotes_service/api/json_v2.php/Market_Center.getHQNodeData",
+                {
+                    "page": page,
+                    "num": 100,
+                    "sort": sort,
+                    "asc": asc,
+                    "node": "hs_a",
+                    "symbol": "",
+                    "_s_r_a": "page",
+                },
+                headers=SINA_HEADERS,
+            )
+            rows = json.loads(raw)
+        except Exception as exc:
+            if stocks:
+                log(f"sina rank page {page} failed, using {len(stocks)} rows fetched: {exc}")
+                break
+            raise
+        if not rows:
+            break
+        converted = [
+            {
+                "code": r.get("symbol", "")[-6:],
+                "name": r.get("name", ""),
+                "price": safe_num(r.get("trade")),
+                "change_pct": safe_num(r.get("changepercent")),
+                "price_change": safe_num(r.get("pricechange")),
+                "pre_close": safe_num(r.get("settlement")),
+                "open": safe_num(r.get("open")),
+                "high": safe_num(r.get("high")),
+                "low": safe_num(r.get("low")),
+                "volume": safe_num(r.get("volume")),
+                "amount_yuan": safe_num(r.get("amount")),
+                "turnover_pct": pct(r.get("turnoverratio")),
+                "main_net_yuan": 0,
+                "pb": safe_num(r.get("pb"), None),
+                "pe": safe_num(r.get("per"), None),
+                "industry": r.get("industry") or "",
+                "ticktime": r.get("ticktime") or "",
+                "source": "Sina Market_Center.getHQNodeData",
+            }
+            for r in rows
+        ]
+        for item in converted:
+            key = item["code"] or item["name"]
+            if key and key not in seen:
+                stocks.append(item)
+                seen.add(key)
+        if stop_below is not None and converted[-1]["change_pct"] < stop_below:
+            break
+    return stocks
 
 
 def get_boards():
@@ -390,7 +464,7 @@ def build_review():
     up_count = sum(1 for s in stocks if s["change_pct"] > 0)
     down_count = sum(1 for s in stocks if s["change_pct"] < 0)
     flat_count = len(stocks) - up_count - down_count
-    limit_up = sum(1 for s in stocks if s["change_pct"] >= 9.8)
+    limit_up = sum(1 for s in stocks if is_limit_up(s) and not is_st_stock(s))
     limit_down = sum(1 for s in stocks if s["change_pct"] <= -9.8)
     turnover_yi = yuan_to_yi(sum(s["amount_yuan"] for s in stocks))
     if len(stocks) < 500:
@@ -403,9 +477,9 @@ def build_review():
     main_net_yi = yuan_to_yi(sum(s["main_net_yuan"] for s in stocks))
     top_stocks = sorted(stocks, key=lambda x: (x["change_pct"], x["amount_yuan"]), reverse=True)[:20]
     limit_up_stocks = build_limit_up_stocks(stocks)
-    concept_boards = build_concept_boards(limit_up_stocks)
     history_before = load_history()
     apply_stock_tracking(limit_up_stocks, history_before)
+    concept_boards = build_concept_boards(limit_up_stocks)
     apply_board_reasons(concept_boards)
     top_boards = sorted(boards, key=lambda x: (x["change_pct"], x["main_net_yuan"]), reverse=True)[:12]
     if not top_boards:
@@ -474,6 +548,12 @@ def build_review():
         "concept_boards": concept_boards,
         "limit_up_stocks": limit_up_stocks,
         "hot_board_tracking": build_hot_board_tracking(concept_boards, history_before),
+        "hot_stock_tracking": build_hot_stock_tracking(
+            concept_boards,
+            limit_up_stocks,
+            history_before,
+            now.strftime("%Y-%m-%d"),
+        ),
         "fund_inflow_themes": inflow_boards,
         "core_stocks": top_stocks,
         "plan": make_plan(state, score, top_boards),
@@ -492,6 +572,10 @@ def is_limit_up(stock):
     return change >= 9.8
 
 
+def is_st_stock(stock):
+    return "ST" in (stock.get("name") or "").upper()
+
+
 def concepts_for_stock(stock):
     name = stock.get("name") or ""
     concepts = []
@@ -506,6 +590,8 @@ def concepts_for_stock(stock):
 def build_limit_up_stocks(stocks):
     result = []
     for stock in stocks:
+        if is_st_stock(stock):
+            continue
         if not is_limit_up(stock):
             continue
         item = dict(stock)
@@ -560,11 +646,17 @@ def build_concept_boards(limit_up_stocks):
         )
 
     boards = [item for item in raw_boards if item["concept"] != "其他涨停" and item["limit_up_count"] >= 2]
+    retained_stock_codes = {
+        stock["code"]
+        for board in boards
+        for stock in board.get("stocks", [])
+    }
     merged_other = {}
     for item in raw_boards:
         if item["concept"] == "其他涨停" or item["limit_up_count"] == 1:
             for stock in item["stocks"]:
-                merged_other[stock["code"]] = stock
+                if stock["code"] not in retained_stock_codes:
+                    merged_other[stock["code"]] = stock
 
     if merged_other:
         other_stocks = sorted(
@@ -635,7 +727,12 @@ def save_history_snapshot(payload):
             {
                 "code": s["code"],
                 "name": s["name"],
+                "price": s.get("price"),
+                "change_pct": s.get("change_pct"),
+                "amount_yuan": s.get("amount_yuan"),
+                "turnover_pct": s.get("turnover_pct"),
                 "concepts": s.get("concepts", []),
+                "limit_reason": s.get("limit_reason"),
             }
             for s in payload.get("limit_up_stocks", [])
         ],
@@ -700,6 +797,100 @@ def build_hot_board_tracking(concept_boards, history):
     return sorted(rows, key=lambda x: (x["highlight"], x["active_days"], x["latest_count"]), reverse=True)[:12]
 
 
+def build_hot_stock_tracking(concept_boards, limit_up_stocks, history, trade_date):
+    board_strength = {}
+    for board in concept_boards:
+        concept = board["concept"]
+        previous_days = []
+        for day in history[-2:]:
+            matched = next((b for b in day.get("concept_boards", []) if b.get("concept") == concept), None)
+            if matched and matched.get("limit_up_count", 0) >= 2:
+                previous_days.append(day.get("trade_date"))
+        board_strength[concept] = {
+            "leader": board.get("leader"),
+            "count": board.get("limit_up_count", 0),
+            "active_days": len(previous_days) + (1 if board.get("limit_up_count", 0) >= 2 else 0),
+            "previous_days": previous_days,
+        }
+
+    previous_by_code = {}
+    for day in history[-3:]:
+        for stock in day.get("limit_up_stocks", []):
+            previous_by_code.setdefault(stock.get("code"), []).append(day.get("trade_date"))
+
+    candidates = {}
+    for board in concept_boards:
+        concept = board["concept"]
+        if board.get("limit_up_count", 0) < 2 and concept != "其他涨停":
+            continue
+        for index, stock in enumerate((board.get("stocks") or [])[:4]):
+            key = stock.get("code") or stock.get("name")
+            if not key:
+                continue
+            current = candidates.get(key)
+            role_score = 3 if stock.get("name") == board.get("leader") else max(1, 3 - index)
+            score = board.get("limit_up_count", 0) * 10 + role_score + int(stock.get("change_pct", 0))
+            if current and current["score"] >= score:
+                continue
+
+            previous_dates = previous_by_code.get(stock.get("code"), [])
+            features = []
+            if stock.get("name") == board.get("leader"):
+                features.append("板块龙头")
+            elif index <= 2:
+                features.append("前排领涨")
+            if stock.get("change_pct", 0) >= 19:
+                features.append("20cm涨停")
+            elif "ST" in stock.get("name", ""):
+                features.append("ST修复")
+            else:
+                features.append("涨停确认")
+            if stock.get("turnover_pct", 0) >= 15:
+                features.append("放量分歧")
+            if stock.get("new_concepts"):
+                features.append("新增概念")
+            if board_strength.get(concept, {}).get("active_days", 0) >= 2:
+                features.append("板块连续")
+
+            active_days = board_strength.get(concept, {}).get("active_days", 1)
+            if previous_dates:
+                consensus_day = f"{previous_dates[-1]} + 延续"
+                divergence_day = trade_date if stock.get("turnover_pct", 0) >= 12 else "延续观察"
+            else:
+                consensus_day = f"{trade_date} + 首板"
+                divergence_day = trade_date
+
+            if stock.get("turnover_pct", 0) >= 15:
+                tomorrow_view = "分歧放量，重点看开盘承接和回封力度"
+            elif stock.get("name") == board.get("leader") and active_days >= 2:
+                tomorrow_view = "板块龙头，弱转强或继续封板则主线延续"
+            elif stock.get("new_concepts"):
+                tomorrow_view = "新增概念发酵，观察同概念是否继续扩散"
+            elif concept == "其他涨停":
+                tomorrow_view = "先看是否被市场重新归入明确主线"
+            else:
+                tomorrow_view = "看所属板块涨停家数是否增加，个股是否继续前排"
+
+            candidates[key] = {
+                "score": score,
+                "code": stock.get("code"),
+                "name": stock.get("name"),
+                "concept": concept,
+                "price": stock.get("price"),
+                "change_pct": stock.get("change_pct"),
+                "divergence_day": divergence_day,
+                "features": features[:4],
+                "consensus_day": consensus_day,
+                "tomorrow_view": tomorrow_view,
+                "highlight": stock.get("name") == board.get("leader") or active_days >= 2 or stock.get("change_pct", 0) >= 19,
+            }
+
+    return [
+        {k: v for k, v in item.items() if k != "score"}
+        for item in sorted(candidates.values(), key=lambda x: (x["highlight"], x["score"]), reverse=True)[:18]
+    ]
+
+
 def infer_themes_from_stocks(stocks):
     rules = [
         ("CPO/光通信", ["太辰光", "光库科技", "铭普光磁", "通鼎互联", "长进光子"]),
@@ -756,9 +947,11 @@ def make_plan(state, score, themes):
 
 def save_json(payload):
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    text = json.dumps(payload, ensure_ascii=False, indent=2)
     tmp = DATA_FILE.with_suffix(".json.tmp")
-    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.write_text(text, encoding="utf-8")
     tmp.replace(DATA_FILE)
+    DATA_JS_FILE.write_text(f"window.__REVIEW_DATA__ = {text};", encoding="utf-8")
 
 
 def get_cached_field(field, default=None):
@@ -781,9 +974,18 @@ def rebuild_concepts_from_existing():
     payload.setdefault("data_updated_at", payload.get("updated_at"))
     stocks = payload.get("limit_up_stocks") or payload.get("core_stocks") or []
     limit_up_stocks = build_limit_up_stocks(stocks)
+    history_before = load_history()
+    apply_stock_tracking(limit_up_stocks, history_before)
     concept_boards = build_concept_boards(limit_up_stocks)
     payload["concept_boards"] = concept_boards
     payload["limit_up_stocks"] = limit_up_stocks
+    payload["hot_board_tracking"] = build_hot_board_tracking(concept_boards, history_before)
+    payload["hot_stock_tracking"] = build_hot_stock_tracking(
+        concept_boards,
+        limit_up_stocks,
+        history_before,
+        payload.get("trade_date") or now[:10],
+    )
     if concept_boards:
         payload["themes"] = [
             {
