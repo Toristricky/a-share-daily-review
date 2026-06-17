@@ -1,0 +1,1881 @@
+{
+  "updated_at": "2026-06-17 09:35:08",
+  "data_updated_at": "2026-06-17 09:35:08",
+  "last_checked_at": "2026-06-17 09:35:08",
+  "trade_date": "2026-06-17",
+  "status": "ok",
+  "source": "Tencent index quote + Sina A-share rank fallback; Eastmoney when available",
+  "source_status": {
+    "mode": "fast_fallback",
+    "indices": "Tencent qt.gtimg.cn",
+    "stocks": "Sina A-share rank top 180 by changepercent",
+    "concepts": "Local concept rules from涨停股名称匹配",
+    "full_market_breadth": "unavailable_in_fast_fallback",
+    "fund_flow": "unavailable_in_fast_fallback",
+    "detail_fundamentals": "partial_from_sina_rank",
+    "freshness": "fresh_fetch",
+    "notes": [],
+    "updated_at": "2026-06-17 09:35:08"
+  },
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "price": 4078.98,
+      "change_pct": -0.32,
+      "change": -12.91,
+      "amount_yuan": 136164840000.0,
+      "quote_time": "20260617093506",
+      "source": "Tencent qt.gtimg.cn"
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "price": 15607.39,
+      "change_pct": -0.43,
+      "change": -67.86,
+      "amount_yuan": 180836530000.0,
+      "quote_time": "20260617093503",
+      "source": "Tencent qt.gtimg.cn"
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "price": 4065.52,
+      "change_pct": -0.91,
+      "change": -37.42,
+      "amount_yuan": 81726640000.0,
+      "quote_time": "20260617093503",
+      "source": "Tencent qt.gtimg.cn"
+    }
+  ],
+  "market": {
+    "turnover_yi": 3170.01,
+    "main_net_yi": 0.0,
+    "up_count": null,
+    "down_count": null,
+    "flat_count": null,
+    "limit_up": 23,
+    "limit_down": 0,
+    "state": "震荡偏弱",
+    "emotion_score": 5.0,
+    "suggested_position": "1-2成",
+    "conclusion": "市场震荡偏弱，指数分化但创业板较强，两市成交额约3170.01亿元，个股宽度使用排行样本估算，强势样本中涨停/20cm个股活跃。当前强势方向：ST摘帽/重整。"
+  },
+  "themes": [
+    {
+      "code": "",
+      "name": "ST摘帽/重整",
+      "change_pct": 5.0,
+      "main_net_yuan": 0,
+      "leader": "*ST实达",
+      "limit_up_count": 8
+    },
+    {
+      "code": "",
+      "name": "其他涨停",
+      "change_pct": 10.84,
+      "main_net_yuan": 0,
+      "leader": "美迪凯",
+      "limit_up_count": 12
+    }
+  ],
+  "concept_boards": [
+    {
+      "concept": "ST摘帽/重整",
+      "limit_up_count": 8,
+      "leader": "*ST实达",
+      "avg_change_pct": 5.0,
+      "stocks": [
+        {
+          "code": "600734",
+          "name": "*ST实达",
+          "price": 2.05,
+          "change_pct": 5.13,
+          "price_change": 0.1,
+          "pre_close": 1.95,
+          "open": 1.97,
+          "high": 2.05,
+          "low": 1.97,
+          "volume": 22788510.0,
+          "amount_yuan": 45917101.0,
+          "turnover_pct": 1.05,
+          "pe": -30.643,
+          "pb": 19.487,
+          "market_cap_wan": 446552.13673,
+          "float_market_cap_wan": 446459.88673,
+          "ticktime": "09:35:07",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "ST摘帽/重整"
+          ],
+          "limit_reason": "重整、摘帽和低价修复预期带动",
+          "new_concepts": []
+        },
+        {
+          "code": "600370",
+          "name": "*ST三房",
+          "price": 1.66,
+          "change_pct": 5.06,
+          "price_change": 0.08,
+          "pre_close": 1.58,
+          "open": 1.63,
+          "high": 1.66,
+          "low": 1.62,
+          "volume": 16453250.0,
+          "amount_yuan": 27086577.0,
+          "turnover_pct": 0.41,
+          "pe": -7.31,
+          "pb": 1.358,
+          "market_cap_wan": 667758.560712,
+          "float_market_cap_wan": 667758.560712,
+          "ticktime": "09:35:07",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "ST摘帽/重整"
+          ],
+          "limit_reason": "重整、摘帽和低价修复预期带动",
+          "new_concepts": []
+        },
+        {
+          "code": "600753",
+          "name": "ST海钦",
+          "price": 12.08,
+          "change_pct": 5.04,
+          "price_change": 0.58,
+          "pre_close": 11.5,
+          "open": 12.08,
+          "high": 12.08,
+          "low": 12.08,
+          "volume": 73800.0,
+          "amount_yuan": 891504.0,
+          "turnover_pct": 0.03,
+          "pe": 75.5,
+          "pb": 31.673,
+          "market_cap_wan": 278211.0674,
+          "float_market_cap_wan": 278211.0674,
+          "ticktime": "09:35:06",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "ST摘帽/重整"
+          ],
+          "limit_reason": "重整、摘帽和低价修复预期带动",
+          "new_concepts": []
+        },
+        {
+          "code": "603922",
+          "name": "ST金鸿顺",
+          "price": 15.29,
+          "change_pct": 5.01,
+          "price_change": 0.73,
+          "pre_close": 14.56,
+          "open": 15.19,
+          "high": 15.29,
+          "low": 15.18,
+          "volume": 632500.0,
+          "amount_yuan": 9642808.0,
+          "turnover_pct": 0.35,
+          "pe": -26.825,
+          "pb": 2.945,
+          "market_cap_wan": 273996.8,
+          "float_market_cap_wan": 273996.8,
+          "ticktime": "09:35:05",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "ST摘帽/重整"
+          ],
+          "limit_reason": "重整、摘帽和低价修复预期带动",
+          "new_concepts": []
+        },
+        {
+          "code": "002082",
+          "name": "ST万邦",
+          "price": 13.68,
+          "change_pct": 4.99,
+          "price_change": 0.65,
+          "pre_close": 13.03,
+          "open": 13.48,
+          "high": 13.68,
+          "low": 13.42,
+          "volume": 2063684.0,
+          "amount_yuan": 28045881.0,
+          "turnover_pct": 0.36,
+          "pe": -50.667,
+          "pb": 3.204,
+          "market_cap_wan": 836790.62724,
+          "float_market_cap_wan": 776815.615296,
+          "ticktime": "09:35:09",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "ST摘帽/重整"
+          ],
+          "limit_reason": "重整、摘帽和低价修复预期带动",
+          "new_concepts": []
+        },
+        {
+          "code": "002789",
+          "name": "*ST建艺",
+          "price": 14.16,
+          "change_pct": 4.97,
+          "price_change": 0.67,
+          "pre_close": 13.49,
+          "open": 14.16,
+          "high": 14.16,
+          "low": 14.16,
+          "volume": 270800.0,
+          "amount_yuan": 3834528.0,
+          "turnover_pct": 0.17,
+          "pe": -3.006,
+          "pb": 14.865,
+          "market_cap_wan": 226026.895824,
+          "float_market_cap_wan": 221565.837384,
+          "ticktime": "09:35:03",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "ST摘帽/重整"
+          ],
+          "limit_reason": "重整、摘帽和低价修复预期带动",
+          "new_concepts": []
+        },
+        {
+          "code": "603959",
+          "name": "ST百利",
+          "price": 4.49,
+          "change_pct": 4.91,
+          "price_change": 0.21,
+          "pre_close": 4.28,
+          "open": 4.49,
+          "high": 4.49,
+          "low": 4.46,
+          "volume": 6130068.0,
+          "amount_yuan": 27505411.0,
+          "turnover_pct": 1.25,
+          "pe": -14.484,
+          "pb": 5612.5,
+          "market_cap_wan": 220144.247408,
+          "float_market_cap_wan": 220144.247408,
+          "ticktime": "09:35:05",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "ST摘帽/重整"
+          ],
+          "limit_reason": "重整、摘帽和低价修复预期带动",
+          "new_concepts": []
+        },
+        {
+          "code": "600537",
+          "name": "*ST亿晶",
+          "price": 2.99,
+          "change_pct": 4.91,
+          "price_change": 0.14,
+          "pre_close": 2.85,
+          "open": 2.99,
+          "high": 2.99,
+          "low": 2.99,
+          "volume": 3902020.0,
+          "amount_yuan": 11667040.0,
+          "turnover_pct": 0.33,
+          "pe": -6.644,
+          "pb": -24.349,
+          "market_cap_wan": 353930.790382,
+          "float_market_cap_wan": 353930.790382,
+          "ticktime": "09:35:05",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "ST摘帽/重整"
+          ],
+          "limit_reason": "重整、摘帽和低价修复预期带动",
+          "new_concepts": []
+        }
+      ],
+      "reason": "重整、摘帽和低价修复预期带动"
+    },
+    {
+      "concept": "其他涨停",
+      "limit_up_count": 12,
+      "leader": "美迪凯",
+      "avg_change_pct": 10.84,
+      "reason": "单股事件、低位补涨或暂未归入主线概念",
+      "stocks": [
+        {
+          "code": "688079",
+          "name": "美迪凯",
+          "price": 31.93,
+          "change_pct": 19.95,
+          "price_change": 5.31,
+          "pre_close": 26.62,
+          "open": 27.57,
+          "high": 31.94,
+          "low": 27.57,
+          "volume": 12109196.0,
+          "amount_yuan": 362766366.0,
+          "turnover_pct": 2.99,
+          "pe": -81.872,
+          "pb": 10.524,
+          "market_cap_wan": 1314029.268954,
+          "float_market_cap_wan": 1291148.486394,
+          "ticktime": "09:35:05",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        },
+        {
+          "code": "600876",
+          "name": "凯盛新能",
+          "price": 9.42,
+          "change_pct": 10.05,
+          "price_change": 0.86,
+          "pre_close": 8.56,
+          "open": 8.61,
+          "high": 9.42,
+          "low": 8.6,
+          "volume": 3862000.0,
+          "amount_yuan": 35595875.0,
+          "turnover_pct": 0.98,
+          "pe": -6.634,
+          "pb": 2.212,
+          "market_cap_wan": 608225.815146,
+          "float_market_cap_wan": 372725.815146,
+          "ticktime": "09:35:05",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        },
+        {
+          "code": "002348",
+          "name": "高乐股份",
+          "price": 13.59,
+          "change_pct": 10.04,
+          "price_change": 1.24,
+          "pre_close": 12.35,
+          "open": 13.59,
+          "high": 13.59,
+          "low": 13.59,
+          "volume": 9615600.0,
+          "amount_yuan": 130676004.0,
+          "turnover_pct": 1.06,
+          "pe": -298.026,
+          "pb": 32.357,
+          "market_cap_wan": 1287244.8,
+          "float_market_cap_wan": 1227901.345641,
+          "ticktime": "09:35:06",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        },
+        {
+          "code": "002047",
+          "name": "宝鹰股份",
+          "price": 5.04,
+          "change_pct": 10.04,
+          "price_change": 0.46,
+          "pre_close": 4.58,
+          "open": 4.82,
+          "high": 5.04,
+          "low": 4.73,
+          "volume": 18468700.0,
+          "amount_yuan": 90831053.0,
+          "turnover_pct": 1.22,
+          "pe": 126.0,
+          "pb": 188.06,
+          "market_cap_wan": 764189.341272,
+          "float_market_cap_wan": 764144.104248,
+          "ticktime": "09:35:09",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        },
+        {
+          "code": "601636",
+          "name": "旗滨集团",
+          "price": 8.67,
+          "change_pct": 10.03,
+          "price_change": 0.79,
+          "pre_close": 7.88,
+          "open": 8.67,
+          "high": 8.67,
+          "low": 8.67,
+          "volume": 36415231.0,
+          "amount_yuan": 315720053.0,
+          "turnover_pct": 1.23,
+          "pe": 37.91,
+          "pb": 1.717,
+          "market_cap_wan": 2565152.782176,
+          "float_market_cap_wan": 2565152.782176,
+          "ticktime": "09:35:06",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        },
+        {
+          "code": "600110",
+          "name": "诺德股份",
+          "price": 17.22,
+          "change_pct": 10.03,
+          "price_change": 1.57,
+          "pre_close": 15.65,
+          "open": 17.22,
+          "high": 17.22,
+          "low": 17.22,
+          "volume": 9987465.0,
+          "amount_yuan": 171984147.0,
+          "turnover_pct": 0.58,
+          "pe": -99.308,
+          "pb": 5.298,
+          "market_cap_wan": 2987981.564904,
+          "float_market_cap_wan": 2987981.564904,
+          "ticktime": "09:35:06",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        },
+        {
+          "code": "002741",
+          "name": "光华科技",
+          "price": 39.44,
+          "change_pct": 10.01,
+          "price_change": 3.59,
+          "pre_close": 35.85,
+          "open": 38.68,
+          "high": 39.44,
+          "low": 38.65,
+          "volume": 15690355.0,
+          "amount_yuan": 612158670.0,
+          "turnover_pct": 3.68,
+          "pe": 179.273,
+          "pb": 9.255,
+          "market_cap_wan": 1834047.99064,
+          "float_market_cap_wan": 1681556.79996,
+          "ticktime": "09:35:06",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        },
+        {
+          "code": "603002",
+          "name": "宏昌电子",
+          "price": 23.2,
+          "change_pct": 10.01,
+          "price_change": 2.11,
+          "pre_close": 21.09,
+          "open": 21.5,
+          "high": 23.2,
+          "low": 21.5,
+          "volume": 25521580.0,
+          "amount_yuan": 573990767.0,
+          "turnover_pct": 2.25,
+          "pe": 773.333,
+          "pb": 7.614,
+          "market_cap_wan": 2631062.14088,
+          "float_market_cap_wan": 2631062.14088,
+          "ticktime": "09:35:07",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        },
+        {
+          "code": "603186",
+          "name": "华正新材",
+          "price": 226.67,
+          "change_pct": 10.0,
+          "price_change": 20.61,
+          "pre_close": 206.06,
+          "open": 215.0,
+          "high": 226.67,
+          "low": 214.3,
+          "volume": 4046205.0,
+          "amount_yuan": 902944438.0,
+          "turnover_pct": 2.58,
+          "pe": 116.241,
+          "pb": 15.176,
+          "market_cap_wan": 3553970.671506,
+          "float_market_cap_wan": 3553970.671506,
+          "ticktime": "09:35:08",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        },
+        {
+          "code": "000811",
+          "name": "冰轮环境",
+          "price": 36.52,
+          "change_pct": 10.0,
+          "price_change": 3.32,
+          "pre_close": 33.2,
+          "open": 36.52,
+          "high": 36.52,
+          "low": 36.52,
+          "volume": 6077400.0,
+          "amount_yuan": 221946648.0,
+          "turnover_pct": 0.62,
+          "pe": 64.07,
+          "pb": 5.548,
+          "market_cap_wan": 3624529.60122,
+          "float_market_cap_wan": 3573101.027012,
+          "ticktime": "09:35:09",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        },
+        {
+          "code": "600353",
+          "name": "旭光电子",
+          "price": 38.19,
+          "change_pct": 9.99,
+          "price_change": 3.47,
+          "pre_close": 34.72,
+          "open": 38.19,
+          "high": 38.19,
+          "low": 37.38,
+          "volume": 26415842.0,
+          "amount_yuan": 1007813622.0,
+          "turnover_pct": 3.19,
+          "pe": 195.947,
+          "pb": 16.368,
+          "market_cap_wan": 3165229.816221,
+          "float_market_cap_wan": 3165229.816221,
+          "ticktime": "09:35:08",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        },
+        {
+          "code": "000050",
+          "name": "深天马Ａ",
+          "price": 9.14,
+          "change_pct": 9.99,
+          "price_change": 0.83,
+          "pre_close": 8.31,
+          "open": 8.28,
+          "high": 9.14,
+          "low": 8.22,
+          "volume": 26072350.0,
+          "amount_yuan": 232526311.0,
+          "turnover_pct": 1.07,
+          "pe": 134.018,
+          "pb": 0.823,
+          "market_cap_wan": 2226298.897486,
+          "float_market_cap_wan": 2226281.417236,
+          "ticktime": "09:35:09",
+          "source": "Sina Market_Center.getHQNodeData",
+          "concepts": [
+            "其他涨停"
+          ],
+          "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+          "new_concepts": []
+        }
+      ]
+    }
+  ],
+  "limit_up_stocks": [
+    {
+      "code": "688079",
+      "name": "美迪凯",
+      "price": 31.93,
+      "change_pct": 19.95,
+      "price_change": 5.31,
+      "pre_close": 26.62,
+      "open": 27.57,
+      "high": 31.94,
+      "low": 27.57,
+      "volume": 12109196.0,
+      "amount_yuan": 362766366.0,
+      "turnover_pct": 2.99,
+      "main_net_yuan": 0,
+      "pe": -81.872,
+      "pb": 10.524,
+      "market_cap_wan": 1314029.268954,
+      "float_market_cap_wan": 1291148.486394,
+      "ticktime": "09:35:05",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": [
+        "其他涨停"
+      ]
+    },
+    {
+      "code": "600876",
+      "name": "凯盛新能",
+      "price": 9.42,
+      "change_pct": 10.05,
+      "price_change": 0.86,
+      "pre_close": 8.56,
+      "open": 8.61,
+      "high": 9.42,
+      "low": 8.6,
+      "volume": 3862000.0,
+      "amount_yuan": 35595875.0,
+      "turnover_pct": 0.98,
+      "main_net_yuan": 0,
+      "pe": -6.634,
+      "pb": 2.212,
+      "market_cap_wan": 608225.815146,
+      "float_market_cap_wan": 372725.815146,
+      "ticktime": "09:35:05",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": [
+        "其他涨停"
+      ]
+    },
+    {
+      "code": "002348",
+      "name": "高乐股份",
+      "price": 13.59,
+      "change_pct": 10.04,
+      "price_change": 1.24,
+      "pre_close": 12.35,
+      "open": 13.59,
+      "high": 13.59,
+      "low": 13.59,
+      "volume": 9615600.0,
+      "amount_yuan": 130676004.0,
+      "turnover_pct": 1.06,
+      "main_net_yuan": 0,
+      "pe": -298.026,
+      "pb": 32.357,
+      "market_cap_wan": 1287244.8,
+      "float_market_cap_wan": 1227901.345641,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": [
+        "其他涨停"
+      ]
+    },
+    {
+      "code": "002047",
+      "name": "宝鹰股份",
+      "price": 5.04,
+      "change_pct": 10.04,
+      "price_change": 0.46,
+      "pre_close": 4.58,
+      "open": 4.82,
+      "high": 5.04,
+      "low": 4.73,
+      "volume": 18468700.0,
+      "amount_yuan": 90831053.0,
+      "turnover_pct": 1.22,
+      "main_net_yuan": 0,
+      "pe": 126.0,
+      "pb": 188.06,
+      "market_cap_wan": 764189.341272,
+      "float_market_cap_wan": 764144.104248,
+      "ticktime": "09:35:09",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": []
+    },
+    {
+      "code": "601636",
+      "name": "旗滨集团",
+      "price": 8.67,
+      "change_pct": 10.03,
+      "price_change": 0.79,
+      "pre_close": 7.88,
+      "open": 8.67,
+      "high": 8.67,
+      "low": 8.67,
+      "volume": 36415231.0,
+      "amount_yuan": 315720053.0,
+      "turnover_pct": 1.23,
+      "main_net_yuan": 0,
+      "pe": 37.91,
+      "pb": 1.717,
+      "market_cap_wan": 2565152.782176,
+      "float_market_cap_wan": 2565152.782176,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": []
+    },
+    {
+      "code": "600110",
+      "name": "诺德股份",
+      "price": 17.22,
+      "change_pct": 10.03,
+      "price_change": 1.57,
+      "pre_close": 15.65,
+      "open": 17.22,
+      "high": 17.22,
+      "low": 17.22,
+      "volume": 9987465.0,
+      "amount_yuan": 171984147.0,
+      "turnover_pct": 0.58,
+      "main_net_yuan": 0,
+      "pe": -99.308,
+      "pb": 5.298,
+      "market_cap_wan": 2987981.564904,
+      "float_market_cap_wan": 2987981.564904,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": [
+        "其他涨停"
+      ]
+    },
+    {
+      "code": "002741",
+      "name": "光华科技",
+      "price": 39.44,
+      "change_pct": 10.01,
+      "price_change": 3.59,
+      "pre_close": 35.85,
+      "open": 38.68,
+      "high": 39.44,
+      "low": 38.65,
+      "volume": 15690355.0,
+      "amount_yuan": 612158670.0,
+      "turnover_pct": 3.68,
+      "main_net_yuan": 0,
+      "pe": 179.273,
+      "pb": 9.255,
+      "market_cap_wan": 1834047.99064,
+      "float_market_cap_wan": 1681556.79996,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": [
+        "其他涨停"
+      ]
+    },
+    {
+      "code": "603002",
+      "name": "宏昌电子",
+      "price": 23.2,
+      "change_pct": 10.01,
+      "price_change": 2.11,
+      "pre_close": 21.09,
+      "open": 21.5,
+      "high": 23.2,
+      "low": 21.5,
+      "volume": 25521580.0,
+      "amount_yuan": 573990767.0,
+      "turnover_pct": 2.25,
+      "main_net_yuan": 0,
+      "pe": 773.333,
+      "pb": 7.614,
+      "market_cap_wan": 2631062.14088,
+      "float_market_cap_wan": 2631062.14088,
+      "ticktime": "09:35:07",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": []
+    },
+    {
+      "code": "603186",
+      "name": "华正新材",
+      "price": 226.67,
+      "change_pct": 10.0,
+      "price_change": 20.61,
+      "pre_close": 206.06,
+      "open": 215.0,
+      "high": 226.67,
+      "low": 214.3,
+      "volume": 4046205.0,
+      "amount_yuan": 902944438.0,
+      "turnover_pct": 2.58,
+      "main_net_yuan": 0,
+      "pe": 116.241,
+      "pb": 15.176,
+      "market_cap_wan": 3553970.671506,
+      "float_market_cap_wan": 3553970.671506,
+      "ticktime": "09:35:08",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": [
+        "其他涨停"
+      ]
+    },
+    {
+      "code": "000811",
+      "name": "冰轮环境",
+      "price": 36.52,
+      "change_pct": 10.0,
+      "price_change": 3.32,
+      "pre_close": 33.2,
+      "open": 36.52,
+      "high": 36.52,
+      "low": 36.52,
+      "volume": 6077400.0,
+      "amount_yuan": 221946648.0,
+      "turnover_pct": 0.62,
+      "main_net_yuan": 0,
+      "pe": 64.07,
+      "pb": 5.548,
+      "market_cap_wan": 3624529.60122,
+      "float_market_cap_wan": 3573101.027012,
+      "ticktime": "09:35:09",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": [
+        "其他涨停"
+      ]
+    },
+    {
+      "code": "600353",
+      "name": "旭光电子",
+      "price": 38.19,
+      "change_pct": 9.99,
+      "price_change": 3.47,
+      "pre_close": 34.72,
+      "open": 38.19,
+      "high": 38.19,
+      "low": 37.38,
+      "volume": 26415842.0,
+      "amount_yuan": 1007813622.0,
+      "turnover_pct": 3.19,
+      "main_net_yuan": 0,
+      "pe": 195.947,
+      "pb": 16.368,
+      "market_cap_wan": 3165229.816221,
+      "float_market_cap_wan": 3165229.816221,
+      "ticktime": "09:35:08",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": [
+        "其他涨停"
+      ]
+    },
+    {
+      "code": "000050",
+      "name": "深天马Ａ",
+      "price": 9.14,
+      "change_pct": 9.99,
+      "price_change": 0.83,
+      "pre_close": 8.31,
+      "open": 8.28,
+      "high": 9.14,
+      "low": 8.22,
+      "volume": 26072350.0,
+      "amount_yuan": 232526311.0,
+      "turnover_pct": 1.07,
+      "main_net_yuan": 0,
+      "pe": 134.018,
+      "pb": 0.823,
+      "market_cap_wan": 2226298.897486,
+      "float_market_cap_wan": 2226281.417236,
+      "ticktime": "09:35:09",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "其他涨停"
+      ],
+      "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
+      "new_concepts": [
+        "其他涨停"
+      ]
+    },
+    {
+      "code": "600734",
+      "name": "*ST实达",
+      "price": 2.05,
+      "change_pct": 5.13,
+      "price_change": 0.1,
+      "pre_close": 1.95,
+      "open": 1.97,
+      "high": 2.05,
+      "low": 1.97,
+      "volume": 22788510.0,
+      "amount_yuan": 45917101.0,
+      "turnover_pct": 1.05,
+      "main_net_yuan": 0,
+      "pe": -30.643,
+      "pb": 19.487,
+      "market_cap_wan": 446552.13673,
+      "float_market_cap_wan": 446459.88673,
+      "ticktime": "09:35:07",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "ST摘帽/重整"
+      ],
+      "limit_reason": "重整、摘帽和低价修复预期带动",
+      "new_concepts": [
+        "ST摘帽/重整"
+      ]
+    },
+    {
+      "code": "600370",
+      "name": "*ST三房",
+      "price": 1.66,
+      "change_pct": 5.06,
+      "price_change": 0.08,
+      "pre_close": 1.58,
+      "open": 1.63,
+      "high": 1.66,
+      "low": 1.62,
+      "volume": 16453250.0,
+      "amount_yuan": 27086577.0,
+      "turnover_pct": 0.41,
+      "main_net_yuan": 0,
+      "pe": -7.31,
+      "pb": 1.358,
+      "market_cap_wan": 667758.560712,
+      "float_market_cap_wan": 667758.560712,
+      "ticktime": "09:35:07",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "ST摘帽/重整"
+      ],
+      "limit_reason": "重整、摘帽和低价修复预期带动",
+      "new_concepts": [
+        "ST摘帽/重整"
+      ]
+    },
+    {
+      "code": "600753",
+      "name": "ST海钦",
+      "price": 12.08,
+      "change_pct": 5.04,
+      "price_change": 0.58,
+      "pre_close": 11.5,
+      "open": 12.08,
+      "high": 12.08,
+      "low": 12.08,
+      "volume": 73800.0,
+      "amount_yuan": 891504.0,
+      "turnover_pct": 0.03,
+      "main_net_yuan": 0,
+      "pe": 75.5,
+      "pb": 31.673,
+      "market_cap_wan": 278211.0674,
+      "float_market_cap_wan": 278211.0674,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "ST摘帽/重整"
+      ],
+      "limit_reason": "重整、摘帽和低价修复预期带动",
+      "new_concepts": [
+        "ST摘帽/重整"
+      ]
+    },
+    {
+      "code": "603922",
+      "name": "ST金鸿顺",
+      "price": 15.29,
+      "change_pct": 5.01,
+      "price_change": 0.73,
+      "pre_close": 14.56,
+      "open": 15.19,
+      "high": 15.29,
+      "low": 15.18,
+      "volume": 632500.0,
+      "amount_yuan": 9642808.0,
+      "turnover_pct": 0.35,
+      "main_net_yuan": 0,
+      "pe": -26.825,
+      "pb": 2.945,
+      "market_cap_wan": 273996.8,
+      "float_market_cap_wan": 273996.8,
+      "ticktime": "09:35:05",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "ST摘帽/重整"
+      ],
+      "limit_reason": "重整、摘帽和低价修复预期带动",
+      "new_concepts": [
+        "ST摘帽/重整"
+      ]
+    },
+    {
+      "code": "002082",
+      "name": "ST万邦",
+      "price": 13.68,
+      "change_pct": 4.99,
+      "price_change": 0.65,
+      "pre_close": 13.03,
+      "open": 13.48,
+      "high": 13.68,
+      "low": 13.42,
+      "volume": 2063684.0,
+      "amount_yuan": 28045881.0,
+      "turnover_pct": 0.36,
+      "main_net_yuan": 0,
+      "pe": -50.667,
+      "pb": 3.204,
+      "market_cap_wan": 836790.62724,
+      "float_market_cap_wan": 776815.615296,
+      "ticktime": "09:35:09",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "ST摘帽/重整"
+      ],
+      "limit_reason": "重整、摘帽和低价修复预期带动",
+      "new_concepts": [
+        "ST摘帽/重整"
+      ]
+    },
+    {
+      "code": "002789",
+      "name": "*ST建艺",
+      "price": 14.16,
+      "change_pct": 4.97,
+      "price_change": 0.67,
+      "pre_close": 13.49,
+      "open": 14.16,
+      "high": 14.16,
+      "low": 14.16,
+      "volume": 270800.0,
+      "amount_yuan": 3834528.0,
+      "turnover_pct": 0.17,
+      "main_net_yuan": 0,
+      "pe": -3.006,
+      "pb": 14.865,
+      "market_cap_wan": 226026.895824,
+      "float_market_cap_wan": 221565.837384,
+      "ticktime": "09:35:03",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "ST摘帽/重整"
+      ],
+      "limit_reason": "重整、摘帽和低价修复预期带动",
+      "new_concepts": [
+        "ST摘帽/重整"
+      ]
+    },
+    {
+      "code": "603959",
+      "name": "ST百利",
+      "price": 4.49,
+      "change_pct": 4.91,
+      "price_change": 0.21,
+      "pre_close": 4.28,
+      "open": 4.49,
+      "high": 4.49,
+      "low": 4.46,
+      "volume": 6130068.0,
+      "amount_yuan": 27505411.0,
+      "turnover_pct": 1.25,
+      "main_net_yuan": 0,
+      "pe": -14.484,
+      "pb": 5612.5,
+      "market_cap_wan": 220144.247408,
+      "float_market_cap_wan": 220144.247408,
+      "ticktime": "09:35:05",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "ST摘帽/重整"
+      ],
+      "limit_reason": "重整、摘帽和低价修复预期带动",
+      "new_concepts": [
+        "ST摘帽/重整"
+      ]
+    },
+    {
+      "code": "600537",
+      "name": "*ST亿晶",
+      "price": 2.99,
+      "change_pct": 4.91,
+      "price_change": 0.14,
+      "pre_close": 2.85,
+      "open": 2.99,
+      "high": 2.99,
+      "low": 2.99,
+      "volume": 3902020.0,
+      "amount_yuan": 11667040.0,
+      "turnover_pct": 0.33,
+      "main_net_yuan": 0,
+      "pe": -6.644,
+      "pb": -24.349,
+      "market_cap_wan": 353930.790382,
+      "float_market_cap_wan": 353930.790382,
+      "ticktime": "09:35:05",
+      "source": "Sina Market_Center.getHQNodeData",
+      "concepts": [
+        "ST摘帽/重整"
+      ],
+      "limit_reason": "重整、摘帽和低价修复预期带动",
+      "new_concepts": [
+        "ST摘帽/重整"
+      ]
+    }
+  ],
+  "hot_board_tracking": [
+    {
+      "concept": "其他涨停",
+      "active_days": 2,
+      "latest_count": 12,
+      "trend": "连续活跃",
+      "highlight": true,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 30,
+          "leader": "金戈新材",
+          "stocks": [
+            "金戈新材",
+            "德恩精工",
+            "长进光子",
+            "通用电梯",
+            "南方泵业",
+            "东望时代",
+            "合力泰",
+            "宝鹰股份",
+            "常铝股份",
+            "旗滨集团",
+            "万憬能源",
+            "大连友谊",
+            "新疆众和",
+            "武汉凡谷",
+            "福达股份",
+            "卓郎智能",
+            "水发燃气",
+            "望变电气",
+            "兰石重装",
+            "宏昌电子",
+            "神州数码",
+            "江钨装备",
+            "金字火腿",
+            "京基智农",
+            "华脉科技",
+            "可立克",
+            "聚合顺",
+            "威尔泰",
+            "柘中股份",
+            "中核科技"
+          ]
+        },
+        {
+          "date": "2026-06-17",
+          "count": 12,
+          "leader": "美迪凯",
+          "stocks": [
+            "美迪凯",
+            "凯盛新能",
+            "高乐股份",
+            "宝鹰股份",
+            "旗滨集团",
+            "诺德股份",
+            "光华科技",
+            "宏昌电子",
+            "华正新材",
+            "冰轮环境",
+            "旭光电子",
+            "深天马Ａ"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "ST摘帽/重整",
+      "active_days": 2,
+      "latest_count": 8,
+      "trend": "连续活跃",
+      "highlight": true,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 2,
+          "leader": "ST南都",
+          "stocks": [
+            "ST南都",
+            "退市岩石"
+          ]
+        },
+        {
+          "date": "2026-06-17",
+          "count": 8,
+          "leader": "*ST实达",
+          "stocks": [
+            "*ST实达",
+            "*ST三房",
+            "ST海钦",
+            "ST金鸿顺",
+            "ST万邦",
+            "*ST建艺",
+            "ST百利",
+            "*ST亿晶"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "专精特新",
+      "active_days": 1,
+      "latest_count": 8,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 8,
+          "leader": "金戈新材",
+          "stocks": [
+            "金戈新材",
+            "鸿仕达",
+            "德恩精工",
+            "长进光子",
+            "南芯科技",
+            "雅创电子",
+            "本川智能",
+            "逸豪新材"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "铜连接/高速连接",
+      "active_days": 1,
+      "latest_count": 4,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 4,
+          "leader": "胜蓝股份",
+          "stocks": [
+            "胜蓝股份",
+            "雅创电子",
+            "本川智能",
+            "逸豪新材"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "active_days": 1,
+      "latest_count": 3,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 3,
+          "leader": "胜蓝股份",
+          "stocks": [
+            "胜蓝股份",
+            "本川智能",
+            "逸豪新材"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "北交所",
+      "active_days": 1,
+      "latest_count": 2,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 2,
+          "leader": "金戈新材",
+          "stocks": [
+            "金戈新材",
+            "鸿仕达"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "新材料",
+      "active_days": 1,
+      "latest_count": 2,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 2,
+          "leader": "金戈新材",
+          "stocks": [
+            "金戈新材",
+            "逸豪新材"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "active_days": 1,
+      "latest_count": 2,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 2,
+          "leader": "南芯科技",
+          "stocks": [
+            "南芯科技",
+            "雅创电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "消费电子",
+      "active_days": 1,
+      "latest_count": 2,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 2,
+          "leader": "胜蓝股份",
+          "stocks": [
+            "胜蓝股份",
+            "雅创电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "汽车零部件",
+      "active_days": 1,
+      "latest_count": 2,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 2,
+          "leader": "胜蓝股份",
+          "stocks": [
+            "胜蓝股份",
+            "肇民科技"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "智能制造",
+      "active_days": 1,
+      "latest_count": 2,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 2,
+          "leader": "德恩精工",
+          "stocks": [
+            "德恩精工",
+            "通用电梯"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "商业零售",
+      "active_days": 1,
+      "latest_count": 2,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "count": 2,
+          "leader": "张小泉",
+          "stocks": [
+            "张小泉",
+            "供销大集"
+          ]
+        }
+      ]
+    }
+  ],
+  "fund_inflow_themes": [],
+  "core_stocks": [
+    {
+      "code": "688079",
+      "name": "美迪凯",
+      "price": 31.93,
+      "change_pct": 19.95,
+      "price_change": 5.31,
+      "pre_close": 26.62,
+      "open": 27.57,
+      "high": 31.94,
+      "low": 27.57,
+      "volume": 12109196.0,
+      "amount_yuan": 362766366.0,
+      "turnover_pct": 2.99,
+      "main_net_yuan": 0,
+      "pe": -81.872,
+      "pb": 10.524,
+      "market_cap_wan": 1314029.268954,
+      "float_market_cap_wan": 1291148.486394,
+      "ticktime": "09:35:05",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "920178",
+      "name": "锐翔智能",
+      "price": 141.88,
+      "change_pct": 18.57,
+      "price_change": 22.22,
+      "pre_close": 119.66,
+      "open": 131.0,
+      "high": 143.96,
+      "low": 131.0,
+      "volume": 1239228.0,
+      "amount_yuan": 171190761.0,
+      "turnover_pct": 8.48,
+      "main_net_yuan": 0,
+      "pe": 56.752,
+      "pb": 16.254,
+      "market_cap_wan": 935529.379724,
+      "float_market_cap_wan": 207280.309588,
+      "ticktime": "09:35:05",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "300735",
+      "name": "光弘科技",
+      "price": 24.14,
+      "change_pct": 16.56,
+      "price_change": 3.43,
+      "pre_close": 20.71,
+      "open": 20.94,
+      "high": 24.48,
+      "low": 20.94,
+      "volume": 13947888.0,
+      "amount_yuan": 330677054.0,
+      "turnover_pct": 1.84,
+      "main_net_yuan": 0,
+      "pe": 63.526,
+      "pb": 3.934,
+      "market_cap_wan": 1953204.771134,
+      "float_market_cap_wan": 1828404.268658,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "301303",
+      "name": "真兰仪表",
+      "price": 18.68,
+      "change_pct": 15.1,
+      "price_change": 2.45,
+      "pre_close": 16.23,
+      "open": 16.19,
+      "high": 18.88,
+      "low": 16.01,
+      "volume": 7163594.0,
+      "amount_yuan": 128372053.0,
+      "turnover_pct": 7.01,
+      "main_net_yuan": 0,
+      "pe": 22.238,
+      "pb": 2.183,
+      "market_cap_wan": 763638.4,
+      "float_market_cap_wan": 190909.6,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "920083",
+      "name": "金戈新材",
+      "price": 58.5,
+      "change_pct": 14.28,
+      "price_change": 7.31,
+      "pre_close": 51.19,
+      "open": 55.09,
+      "high": 59.37,
+      "low": 55.09,
+      "volume": 4065360.0,
+      "amount_yuan": 230988912.0,
+      "turnover_pct": 20.24,
+      "main_net_yuan": 0,
+      "pe": 68.023,
+      "pb": 11.476,
+      "market_cap_wan": 522226.4229,
+      "float_market_cap_wan": 117522.9432,
+      "ticktime": "09:35:05",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "920370",
+      "name": "新安洁",
+      "price": 2.98,
+      "change_pct": 14.18,
+      "price_change": 0.37,
+      "pre_close": 2.61,
+      "open": 2.63,
+      "high": 2.99,
+      "low": 2.62,
+      "volume": 2724232.0,
+      "amount_yuan": 7899460.0,
+      "turnover_pct": 1.04,
+      "main_net_yuan": 0,
+      "pe": -11.462,
+      "pb": 1.588,
+      "market_cap_wan": 89484.436214,
+      "float_market_cap_wan": 78191.0876,
+      "ticktime": "09:35:05",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "920689",
+      "name": "克莱特",
+      "price": 26.4,
+      "change_pct": 12.58,
+      "price_change": 2.95,
+      "pre_close": 23.45,
+      "open": 23.85,
+      "high": 26.5,
+      "low": 23.5,
+      "volume": 453127.0,
+      "amount_yuan": 11309503.0,
+      "turnover_pct": 1.19,
+      "main_net_yuan": 0,
+      "pe": 35.2,
+      "pb": 3.835,
+      "market_cap_wan": 193776.0,
+      "float_market_cap_wan": 100136.82888,
+      "ticktime": "09:35:05",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "300088",
+      "name": "长信科技",
+      "price": 9.9,
+      "change_pct": 12.37,
+      "price_change": 1.09,
+      "pre_close": 8.81,
+      "open": 9.56,
+      "high": 10.39,
+      "low": 9.56,
+      "volume": 150568902.0,
+      "amount_yuan": 1509929007.0,
+      "turnover_pct": 6.06,
+      "main_net_yuan": 0,
+      "pe": 123.75,
+      "pb": 2.848,
+      "market_cap_wan": 2472756.24321,
+      "float_market_cap_wan": 2460648.61053,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "300776",
+      "name": "帝尔激光",
+      "price": 175.5,
+      "change_pct": 11.67,
+      "price_change": 18.34,
+      "pre_close": 157.16,
+      "open": 161.87,
+      "high": 179.9,
+      "low": 160.37,
+      "volume": 4369230.0,
+      "amount_yuan": 748407706.0,
+      "turnover_pct": 2.44,
+      "main_net_yuan": 0,
+      "pe": 91.885,
+      "pb": 12.718,
+      "market_cap_wan": 5005864.7028,
+      "float_market_cap_wan": 3146930.25075,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "301682",
+      "name": "宏明电子",
+      "price": 192.23,
+      "change_pct": 11.44,
+      "price_change": 19.73,
+      "pre_close": 172.5,
+      "open": 176.9,
+      "high": 193.8,
+      "low": 176.22,
+      "volume": 2277192.0,
+      "amount_yuan": 426407028.0,
+      "turnover_pct": 8.87,
+      "main_net_yuan": 0,
+      "pe": 54.983,
+      "pb": 4.67,
+      "market_cap_wan": 2336543.308834,
+      "float_market_cap_wan": 493777.760083,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "300522",
+      "name": "世名科技",
+      "price": 14.83,
+      "change_pct": 11.17,
+      "price_change": 1.49,
+      "pre_close": 13.34,
+      "open": 13.33,
+      "high": 14.95,
+      "low": 13.2,
+      "volume": 9476830.0,
+      "amount_yuan": 135320854.0,
+      "turnover_pct": 3.59,
+      "main_net_yuan": 0,
+      "pe": 234.281,
+      "pb": 6.04,
+      "market_cap_wan": 478195.584881,
+      "float_market_cap_wan": 391059.748769,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "600876",
+      "name": "凯盛新能",
+      "price": 9.42,
+      "change_pct": 10.05,
+      "price_change": 0.86,
+      "pre_close": 8.56,
+      "open": 8.61,
+      "high": 9.42,
+      "low": 8.6,
+      "volume": 3862000.0,
+      "amount_yuan": 35595875.0,
+      "turnover_pct": 0.98,
+      "main_net_yuan": 0,
+      "pe": -6.634,
+      "pb": 2.212,
+      "market_cap_wan": 608225.815146,
+      "float_market_cap_wan": 372725.815146,
+      "ticktime": "09:35:05",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "002348",
+      "name": "高乐股份",
+      "price": 13.59,
+      "change_pct": 10.04,
+      "price_change": 1.24,
+      "pre_close": 12.35,
+      "open": 13.59,
+      "high": 13.59,
+      "low": 13.59,
+      "volume": 9615600.0,
+      "amount_yuan": 130676004.0,
+      "turnover_pct": 1.06,
+      "main_net_yuan": 0,
+      "pe": -298.026,
+      "pb": 32.357,
+      "market_cap_wan": 1287244.8,
+      "float_market_cap_wan": 1227901.345641,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "002047",
+      "name": "宝鹰股份",
+      "price": 5.04,
+      "change_pct": 10.04,
+      "price_change": 0.46,
+      "pre_close": 4.58,
+      "open": 4.82,
+      "high": 5.04,
+      "low": 4.73,
+      "volume": 18468700.0,
+      "amount_yuan": 90831053.0,
+      "turnover_pct": 1.22,
+      "main_net_yuan": 0,
+      "pe": 126.0,
+      "pb": 188.06,
+      "market_cap_wan": 764189.341272,
+      "float_market_cap_wan": 764144.104248,
+      "ticktime": "09:35:09",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "601636",
+      "name": "旗滨集团",
+      "price": 8.67,
+      "change_pct": 10.03,
+      "price_change": 0.79,
+      "pre_close": 7.88,
+      "open": 8.67,
+      "high": 8.67,
+      "low": 8.67,
+      "volume": 36415231.0,
+      "amount_yuan": 315720053.0,
+      "turnover_pct": 1.23,
+      "main_net_yuan": 0,
+      "pe": 37.91,
+      "pb": 1.717,
+      "market_cap_wan": 2565152.782176,
+      "float_market_cap_wan": 2565152.782176,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "600110",
+      "name": "诺德股份",
+      "price": 17.22,
+      "change_pct": 10.03,
+      "price_change": 1.57,
+      "pre_close": 15.65,
+      "open": 17.22,
+      "high": 17.22,
+      "low": 17.22,
+      "volume": 9987465.0,
+      "amount_yuan": 171984147.0,
+      "turnover_pct": 0.58,
+      "main_net_yuan": 0,
+      "pe": -99.308,
+      "pb": 5.298,
+      "market_cap_wan": 2987981.564904,
+      "float_market_cap_wan": 2987981.564904,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "002741",
+      "name": "光华科技",
+      "price": 39.44,
+      "change_pct": 10.01,
+      "price_change": 3.59,
+      "pre_close": 35.85,
+      "open": 38.68,
+      "high": 39.44,
+      "low": 38.65,
+      "volume": 15690355.0,
+      "amount_yuan": 612158670.0,
+      "turnover_pct": 3.68,
+      "main_net_yuan": 0,
+      "pe": 179.273,
+      "pb": 9.255,
+      "market_cap_wan": 1834047.99064,
+      "float_market_cap_wan": 1681556.79996,
+      "ticktime": "09:35:06",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "603002",
+      "name": "宏昌电子",
+      "price": 23.2,
+      "change_pct": 10.01,
+      "price_change": 2.11,
+      "pre_close": 21.09,
+      "open": 21.5,
+      "high": 23.2,
+      "low": 21.5,
+      "volume": 25521580.0,
+      "amount_yuan": 573990767.0,
+      "turnover_pct": 2.25,
+      "main_net_yuan": 0,
+      "pe": 773.333,
+      "pb": 7.614,
+      "market_cap_wan": 2631062.14088,
+      "float_market_cap_wan": 2631062.14088,
+      "ticktime": "09:35:07",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "603186",
+      "name": "华正新材",
+      "price": 226.67,
+      "change_pct": 10.0,
+      "price_change": 20.61,
+      "pre_close": 206.06,
+      "open": 215.0,
+      "high": 226.67,
+      "low": 214.3,
+      "volume": 4046205.0,
+      "amount_yuan": 902944438.0,
+      "turnover_pct": 2.58,
+      "main_net_yuan": 0,
+      "pe": 116.241,
+      "pb": 15.176,
+      "market_cap_wan": 3553970.671506,
+      "float_market_cap_wan": 3553970.671506,
+      "ticktime": "09:35:08",
+      "source": "Sina Market_Center.getHQNodeData"
+    },
+    {
+      "code": "000811",
+      "name": "冰轮环境",
+      "price": 36.52,
+      "change_pct": 10.0,
+      "price_change": 3.32,
+      "pre_close": 33.2,
+      "open": 36.52,
+      "high": 36.52,
+      "low": 36.52,
+      "volume": 6077400.0,
+      "amount_yuan": 221946648.0,
+      "turnover_pct": 0.62,
+      "main_net_yuan": 0,
+      "pe": 64.07,
+      "pb": 5.548,
+      "market_cap_wan": 3624529.60122,
+      "float_market_cap_wan": 3573101.027012,
+      "ticktime": "09:35:09",
+      "source": "Sina Market_Center.getHQNodeData"
+    }
+  ],
+  "plan": {
+    "watch_themes": [
+      "ST摘帽/重整",
+      "其他涨停"
+    ],
+    "trigger": "先等指数止跌、跌停数下降、高位股负反馈缓和。",
+    "invalid": "成交额明显萎缩、热点前排冲高回落、跌停或大面个股增加。",
+    "risk": "自动生成仅用于复盘观察，不构成投资建议；交易前需要结合个人仓位和风险承受能力。",
+    "position": "1-2成"
+  }
+}
