@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>每日A股复盘</title>
-  <link rel="stylesheet" href="./styles.css?v=20260617-0938">
+  <link rel="stylesheet" href="./styles.css?v=20260617-2158">
 </head>
 <body>
   <main class="app">
@@ -88,12 +88,29 @@
       <div class="tracking-grid" id="hotBoardTracking"></div>
     </section>
 
+    <section class="panel tracking-panel">
+      <div class="panel-head">
+        <h2>热门个股跟踪</h2>
+        <span class="panel-note">围绕热门板块龙头、前排和明日观察信号</span>
+      </div>
+      <div class="table-wrap">
+        <table class="hot-stock-table">
+          <thead>
+            <tr>
+              <th>个股</th><th>所属板块</th><th>现价</th><th>涨幅</th><th>分歧日</th><th>特征</th><th>一致日</th><th>明天怎么看</th>
+            </tr>
+          </thead>
+          <tbody id="hotStockTracking"></tbody>
+        </table>
+      </div>
+    </section>
+
     <footer>
       <span id="sourceStatus">数据来自公开行情接口，自动生成内容仅用于复盘观察，不构成投资建议。</span>
     </footer>
   </main>
 
-  <script src="./data/review-data.js?v=20260617-0938"></script>
-  <script src="./app.js?v=20260617-0938"></script>
+  <script src="./data/review-data.js?v=20260617-2158"></script>
+  <script src="./app.js?v=20260617-2158"></script>
 </body>
 </html>

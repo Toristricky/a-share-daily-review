@@ -42,11 +42,16 @@ function selectConcept(index) {
 
 async function loadReview() {
   try {
-    let data = window.__REVIEW_DATA__;
-    if (!data) {
+    let data = null;
+    if (window.location.protocol === "file:") {
+      data = window.__REVIEW_DATA__;
+    } else {
       const response = await fetch(`./data/review.json?ts=${Date.now()}`);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       data = await response.json();
+    }
+    if (!data) {
+      data = window.__REVIEW_DATA__;
     }
     reviewData = data;
 
@@ -113,6 +118,7 @@ async function loadReview() {
     }
 
     renderHotBoardTracking(data.hot_board_tracking || []);
+    renderHotStockTracking(data.hot_stock_tracking || []);
 
     const plan = data.plan || {};
     text("watchThemes", (plan.watch_themes || []).join("、") || "-");
@@ -148,4 +154,22 @@ function renderHotBoardTracking(items) {
       </article>
     `).join("")
     : `<div class="empty">暂无连续板块跟踪数据</div>`;
+}
+
+function renderHotStockTracking(items) {
+  rows("hotStockTracking", (items || []).slice(0, 16).map(item => `
+    <tr class="${item.highlight ? "hot-stock-highlight" : ""}">
+      <td>
+        <a class="stock-link" href="./stock.html?code=${encodeURIComponent(item.code || "")}&name=${encodeURIComponent(item.name || "")}">${item.name || "-"}</a>
+        <small class="stock-code">${item.code || "-"}</small>
+      </td>
+      <td>${item.concept || "-"}</td>
+      <td>${Number(item.price || 0).toFixed(2)}</td>
+      <td>${pct(item.change_pct)}</td>
+      <td>${item.divergence_day || "-"}</td>
+      <td class="feature-cell">${chips(item.features || [])}</td>
+      <td>${item.consensus_day || "-"}</td>
+      <td class="view-cell">${item.tomorrow_view || "-"}</td>
+    </tr>
+  `).join(""));
 }
