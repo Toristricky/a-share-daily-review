@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-17 21:51:55",
-  "data_updated_at": "2026-06-17 21:51:55",
-  "last_checked_at": "2026-06-17 21:51:55",
+  "updated_at": "2026-06-17 14:10:51",
+  "data_updated_at": "2026-06-17 14:10:51",
+  "last_checked_at": "2026-06-17 14:10:51",
   "trade_date": "2026-06-17",
   "status": "ok",
   "source": "Tencent index quote + Sina A-share rank fallback; Eastmoney when available",
@@ -15,7 +15,7 @@
     "detail_fundamentals": "partial_from_sina_rank",
     "freshness": "fresh_fetch",
     "notes": [],
-    "updated_at": "2026-06-17 21:51:55"
+    "updated_at": "2026-06-17 14:10:51"
   },
   "indices": [
     {
@@ -5463,41 +5463,6 @@
       ]
     },
     {
-      "concept": "ST摘帽/重整",
-      "active_days": 2,
-      "latest_count": 10,
-      "trend": "连续活跃",
-      "highlight": true,
-      "history": [
-        {
-          "date": "2026-06-16",
-          "count": 2,
-          "leader": "ST南都",
-          "stocks": [
-            "ST南都",
-            "退市岩石"
-          ]
-        },
-        {
-          "date": "2026-06-17",
-          "count": 10,
-          "leader": "*ST未名",
-          "stocks": [
-            "*ST未名",
-            "*ST三房",
-            "ST海钦",
-            "*ST集友",
-            "ST金鸿顺",
-            "*ST艾艾",
-            "ST万邦",
-            "*ST建艺",
-            "*ST亿晶",
-            "ST百利"
-          ]
-        }
-      ]
-    },
-    {
       "concept": "医药/消费",
       "active_days": 2,
       "latest_count": 10,
@@ -5688,6 +5653,37 @@
             "亚翔集成",
             "赛腾股份",
             "盛剑科技"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "纺织检测",
+      "active_days": 2,
+      "latest_count": 4,
+      "trend": "连续活跃",
+      "highlight": true,
+      "history": [
+        {
+          "date": "2026-06-17",
+          "count": 4,
+          "leader": "中纺标",
+          "stocks": [
+            "中纺标",
+            "天纺标",
+            "欣龙控股",
+            "嘉欣丝绸"
+          ]
+        },
+        {
+          "date": "2026-06-17",
+          "count": 4,
+          "leader": "中纺标",
+          "stocks": [
+            "中纺标",
+            "天纺标",
+            "欣龙控股",
+            "嘉欣丝绸"
           ]
         }
       ]
