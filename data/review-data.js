@@ -1,7 +1,7 @@
 window.__REVIEW_DATA__ = {
-  "updated_at": "2026-06-17 14:10:51",
-  "data_updated_at": "2026-06-17 14:10:51",
-  "last_checked_at": "2026-06-17 14:10:51",
+  "updated_at": "2026-06-17 19:33:26",
+  "data_updated_at": "2026-06-17 19:33:26",
+  "last_checked_at": "2026-06-17 19:33:26",
   "trade_date": "2026-06-17",
   "status": "ok",
   "source": "Tencent index quote + Sina A-share rank fallback; Eastmoney when available",
@@ -15,7 +15,7 @@ window.__REVIEW_DATA__ = {
     "detail_fundamentals": "partial_from_sina_rank",
     "freshness": "fresh_fetch",
     "notes": [],
-    "updated_at": "2026-06-17 14:10:51"
+    "updated_at": "2026-06-17 19:33:26"
   },
   "indices": [
     {
