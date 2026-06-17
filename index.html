@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>每日A股复盘</title>
+  <link rel="stylesheet" href="./styles.css?v=20260617-0938">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <h1>每日A股复盘</h1>
+        <p id="updated">等待刷新</p>
+      </div>
+      <a class="button" href="./每日A股复盘表.xlsx">打开复盘表</a>
+    </header>
+
+    <section class="summary" id="summary">
+      <div class="conclusion" id="conclusion">暂无数据</div>
+      <div class="kpis">
+        <article><span>市场状态</span><strong id="state">-</strong></article>
+        <article><span>成交额</span><strong id="turnover">-</strong></article>
+        <article><span>涨跌家数</span><strong id="breadth">-</strong></article>
+        <article><span>涨跌停</span><strong id="limits">-</strong></article>
+        <article><span>情绪评分</span><strong id="score">-</strong></article>
+        <article><span>建议仓位</span><strong id="position">-</strong></article>
+      </div>
+    </section>
+
+    <section class="grid two">
+      <section class="panel">
+        <div class="panel-head">
+          <h2>指数表现</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>指数</th><th>点位</th><th>涨跌幅</th><th>成交额</th></tr>
+            </thead>
+            <tbody id="indices"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>明日计划</h2>
+        </div>
+        <dl class="plan">
+          <dt>重点方向</dt><dd id="watchThemes">-</dd>
+          <dt>触发条件</dt><dd id="trigger">-</dd>
+          <dt>失效条件</dt><dd id="invalid">-</dd>
+          <dt>风险提醒</dt><dd id="risk">-</dd>
+        </dl>
+      </section>
+    </section>
+
+    <section class="grid market-grid">
+      <section class="panel">
+        <div class="panel-head">
+          <h2>热点概念涨停分布</h2>
+        </div>
+        <div class="concept-list" id="conceptBoards"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>涨停个股概念归属</h2>
+          <span class="panel-note" id="selectedConcept">全部涨停股</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>代码</th><th>名称</th><th>涨跌幅</th><th>原因</th><th>新增概念</th><th>概念</th></tr>
+            </thead>
+            <tbody id="limitUpStocks"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <section class="panel tracking-panel">
+      <div class="panel-head">
+        <h2>热门板块跟踪</h2>
+        <span class="panel-note">连续 2-3 个交易日活跃需重点关注</span>
+      </div>
+      <div class="tracking-grid" id="hotBoardTracking"></div>
+    </section>
+
+    <footer>
+      <span id="sourceStatus">数据来自公开行情接口，自动生成内容仅用于复盘观察，不构成投资建议。</span>
+    </footer>
+  </main>
+
+  <script src="./data/review-data.js?v=20260617-0938"></script>
+  <script src="./app.js?v=20260617-0938"></script>
+</body>
+</html>

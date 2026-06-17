@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>个股复盘</title>
+  <link rel="stylesheet" href="./styles.css?v=20260617-0938">
+  <link rel="stylesheet" href="./stock.css?v=20260617-0938">
+</head>
+<body>
+  <main class="app stock-page">
+    <a class="back-home" href="./index.html">← 返回主页</a>
+    <section class="stock-strip">
+      <strong id="visibleStockTitle">个股复盘</strong>
+      <span id="visibleStockSub">等待加载</span>
+    </section>
+    <header class="topbar">
+      <div>
+        <h1 id="stockTitle">个股复盘</h1>
+        <p id="stockSub">等待加载</p>
+      </div>
+      <a class="button" href="./index.html">返回复盘首页</a>
+    </header>
+
+    <section class="stock-grid">
+      <article class="stock-panel">
+        <h3>🔬 技术面分析</h3>
+        <div class="metric-lines" id="technical"></div>
+      </article>
+
+      <article class="stock-panel">
+        <h3>📰 最新消息</h3>
+        <div class="news-list" id="news"></div>
+      </article>
+
+      <article class="stock-panel">
+        <h3>🏦 机构研报观点</h3>
+        <div id="research"></div>
+      </article>
+
+      <article class="stock-panel">
+        <h3>🏭 基本面速览</h3>
+        <div class="metric-lines" id="fundamental"></div>
+      </article>
+    </section>
+
+    <section class="stock-panel judgment">
+      <h3>💡 综合研判</h3>
+      <div class="judgment-grid">
+        <div>
+          <h4 class="good">利好因素</h4>
+          <ul id="goodFactors"></ul>
+        </div>
+        <div>
+          <h4 class="risk">风险因素</h4>
+          <ul id="riskFactors"></ul>
+        </div>
+        <div>
+          <h4 class="action">操作建议</h4>
+          <ul id="actionItems"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./data/review-data.js?v=20260617-0938"></script>
+  <script src="./stock.js?v=20260617-0938"></script>
+</body>
+</html>
