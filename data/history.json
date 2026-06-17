@@ -473,528 +473,1328 @@
   },
   {
     "trade_date": "2026-06-17",
-    "updated_at": "2026-06-17 03:57:03",
+    "updated_at": "2026-06-17 21:51:55",
     "concept_boards": [
       {
-        "concept": "其他涨停",
-        "limit_up_count": 64,
+        "concept": "新材料/化工",
+        "limit_up_count": 16,
+        "leader": "金博股份",
+        "stocks": [
+          "金博股份",
+          "瑞华泰",
+          "温州宏丰",
+          "诺德股份",
+          "光华科技",
+          "泰和新材",
+          "昊华科技",
+          "九鼎新材",
+          "艾华集团",
+          "中材科技",
+          "海星股份",
+          "中国巨石",
+          "东阳光",
+          "江海股份",
+          "铜峰电子",
+          "再升科技"
+        ]
+      },
+      {
+        "concept": "医药/消费",
+        "limit_up_count": 10,
+        "leader": "海辰药业",
+        "stocks": [
+          "海辰药业",
+          "粤万年青",
+          "大连友谊",
+          "正川股份",
+          "康惠股份",
+          "莲花控股",
+          "爱普股份",
+          "嘉欣丝绸",
+          "南卫股份",
+          "安德利"
+        ]
+      },
+      {
+        "concept": "PCB",
+        "limit_up_count": 8,
+        "leader": "科翔股份",
+        "stocks": [
+          "科翔股份",
+          "一博科技",
+          "中京电子",
+          "宏昌电子",
+          "华正新材",
+          "鹏鼎控股",
+          "深南电路",
+          "超声电子"
+        ]
+      },
+      {
+        "concept": "建材/玻璃",
+        "limit_up_count": 8,
+        "leader": "科顺股份",
+        "stocks": [
+          "科顺股份",
+          "凯盛新能",
+          "旗滨集团",
+          "蒙娜丽莎",
+          "上峰材料",
+          "中材科技",
+          "中国巨石",
+          "凯盛科技"
+        ]
+      },
+      {
+        "concept": "面板/显示",
+        "limit_up_count": 8,
+        "leader": "长信科技",
+        "stocks": [
+          "长信科技",
+          "TCL科技",
+          "京东方Ａ",
+          "沃格光电",
+          "彩虹股份",
+          "深天马Ａ",
+          "凯盛科技",
+          "莱宝高科"
+        ]
+      },
+      {
+        "concept": "基建工程",
+        "limit_up_count": 8,
+        "leader": "中国化学",
+        "stocks": [
+          "中国化学",
+          "展鹏科技",
+          "中核科技",
+          "勘设股份",
+          "长城电工",
+          "江钨装备",
+          "镇海股份",
+          "中化装备"
+        ]
+      },
+      {
+        "concept": "消费电子",
+        "limit_up_count": 6,
+        "leader": "昀冢科技",
+        "stocks": [
+          "昀冢科技",
+          "光弘科技",
+          "美迪凯",
+          "长信科技",
+          "智微智能",
+          "联域股份"
+        ]
+      },
+      {
+        "concept": "半导体设备/先进封装",
+        "limit_up_count": 6,
         "leader": "锐翔智能",
         "stocks": [
           "锐翔智能",
-          "科翔股份",
+          "盛美上海",
           "铂力特",
-          "一博科技",
-          "科顺股份",
-          "光弘科技",
-          "粤万年青",
-          "长信科技",
-          "美迪凯",
+          "亚翔集成",
+          "赛腾股份",
+          "盛剑科技"
+        ]
+      },
+      {
+        "concept": "纺织检测",
+        "limit_up_count": 4,
+        "leader": "中纺标",
+        "stocks": [
+          "中纺标",
+          "天纺标",
+          "欣龙控股",
+          "嘉欣丝绸"
+        ]
+      },
+      {
+        "concept": "半导体",
+        "limit_up_count": 4,
+        "leader": "普冉股份",
+        "stocks": [
+          "普冉股份",
+          "香农芯创",
           "飞天诚信",
-          "凯盛新能",
-          "贤丰控股",
-          "旗滨集团",
-          "三联锻造",
-          "诺德股份",
+          "兆易创新"
+        ]
+      },
+      {
+        "concept": "能源/油气",
+        "limit_up_count": 4,
+        "leader": "滨海能源",
+        "stocks": [
+          "滨海能源",
           "贝肯能源",
-          "交运股份",
-          "泰和新材",
-          "中京电子",
-          "山东玻纤",
-          "光华科技",
-          "宏昌电子",
-          "中天精装",
-          "蒙娜丽莎",
-          "华阳集团",
-          "长城电工",
-          "正川股份",
-          "京东方Ａ",
-          "昊华科技",
-          "通鼎互联",
-          "深南电路",
           "中远海能",
-          "沃格光电",
-          "超声电子",
-          "华正新材",
+          "冰轮环境"
+        ]
+      },
+      {
+        "concept": "复合材料",
+        "limit_up_count": 4,
+        "leader": "泰和新材",
+        "stocks": [
+          "泰和新材",
           "九鼎新材",
-          "艾华集团",
-          "海星股份",
-          "冰轮环境",
-          "瑞泰科技",
-          "联域股份",
-          "键邦股份",
-          "立航科技",
-          "中国巨石",
-          "东阳光",
-          "彩虹股份",
-          "杭电股份",
-          "旭光电子",
-          "盛剑科技",
-          "深天马Ａ",
-          "康惠股份",
-          "镇海股份",
-          "莲花控股",
-          "凯盛科技",
-          "孚日股份",
-          "铜峰电子",
-          "爱普股份",
-          "再升科技",
-          "莱宝高科",
-          "嘉欣丝绸",
-          "南卫股份",
-          "御银股份",
           "中材科技",
-          "智微智能"
+          "中国巨石"
+        ]
+      },
+      {
+        "concept": "汽车零部件",
+        "limit_up_count": 3,
+        "leader": "永贵电器",
+        "stocks": [
+          "永贵电器",
+          "三联锻造",
+          "华阳集团"
+        ]
+      },
+      {
+        "concept": "CPO/光通信",
+        "limit_up_count": 2,
+        "leader": "通鼎互联",
+        "stocks": [
+          "通鼎互联",
+          "杭电股份"
+        ]
+      },
+      {
+        "concept": "其他涨停",
+        "limit_up_count": 10,
+        "leader": "世名科技",
+        "stocks": [
+          "世名科技",
+          "贤丰控股",
+          "远 望 谷",
+          "交运股份",
+          "中天精装",
+          "键邦股份",
+          "欧克科技",
+          "立航科技",
+          "旭光电子",
+          "鑫源智造"
         ]
       }
     ],
     "limit_up_stocks": [
       {
+        "code": "920122",
+        "name": "中纺标",
+        "price": 26.5,
+        "change_pct": 29.966,
+        "amount_yuan": 79816703.0,
+        "turnover_pct": 8.87,
+        "concepts": [
+          "纺织检测"
+        ],
+        "limit_reason": "北交所高弹性与纺织检测细分方向活跃"
+      },
+      {
+        "code": "920753",
+        "name": "天纺标",
+        "price": 19.19,
+        "change_pct": 29.052,
+        "amount_yuan": 69740316.0,
+        "turnover_pct": 12.21,
+        "concepts": [
+          "纺织检测"
+        ],
+        "limit_reason": "北交所高弹性与纺织检测细分方向活跃"
+      },
+      {
         "code": "920178",
         "name": "锐翔智能",
+        "price": 150.2,
+        "change_pct": 25.522,
+        "amount_yuan": 642947760.0,
+        "turnover_pct": 30.56,
+        "concepts": [
+          "半导体设备/先进封装"
+        ],
+        "limit_reason": "半导体设备、洁净室和先进制造环节受资金追捧"
+      },
+      {
+        "code": "300522",
+        "name": "世名科技",
+        "price": 16.01,
+        "change_pct": 20.015,
+        "amount_yuan": 859412720.0,
+        "turnover_pct": 21.77,
         "concepts": [
           "其他涨停"
-        ]
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "688598",
+        "name": "金博股份",
+        "price": 49.79,
+        "change_pct": 20.005,
+        "amount_yuan": 1565465415.0,
+        "turnover_pct": 17.03,
+        "concepts": [
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
+      },
+      {
+        "code": "688766",
+        "name": "普冉股份",
+        "price": 580.2,
+        "change_pct": 20.0,
+        "amount_yuan": 5586810806.0,
+        "turnover_pct": 7.24,
+        "concepts": [
+          "半导体"
+        ],
+        "limit_reason": "国产替代与AI硬件需求共振，资金关注芯片设计/设备材料"
+      },
+      {
+        "code": "688082",
+        "name": "盛美上海",
+        "price": 361.2,
+        "change_pct": 20.0,
+        "amount_yuan": 3953468337.0,
+        "turnover_pct": 2.51,
+        "concepts": [
+          "半导体设备/先进封装"
+        ],
+        "limit_reason": "半导体设备、洁净室和先进制造环节受资金追捧"
       },
       {
         "code": "300903",
         "name": "科翔股份",
+        "price": 98.16,
+        "change_pct": 20.0,
+        "amount_yuan": 2997421604.0,
+        "turnover_pct": 9.91,
         "concepts": [
-          "其他涨停"
-        ]
+          "PCB"
+        ],
+        "limit_reason": "AI服务器与高速连接需求改善，PCB/铜连接方向走强"
       },
       {
         "code": "688333",
         "name": "铂力特",
+        "price": 89.4,
+        "change_pct": 20.0,
+        "amount_yuan": 1463060608.0,
+        "turnover_pct": 6.27,
         "concepts": [
-          "其他涨停"
-        ]
+          "半导体设备/先进封装"
+        ],
+        "limit_reason": "半导体设备、洁净室和先进制造环节受资金追捧"
+      },
+      {
+        "code": "688323",
+        "name": "瑞华泰",
+        "price": 60.3,
+        "change_pct": 20.0,
+        "amount_yuan": 1347027848.0,
+        "turnover_pct": 13.21,
+        "concepts": [
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
       },
       {
         "code": "301366",
         "name": "一博科技",
+        "price": 58.2,
+        "change_pct": 20.0,
+        "amount_yuan": 1302511094.0,
+        "turnover_pct": 20.25,
         "concepts": [
-          "其他涨停"
-        ]
+          "PCB"
+        ],
+        "limit_reason": "AI服务器与高速连接需求改善，PCB/铜连接方向走强"
       },
       {
         "code": "300737",
         "name": "科顺股份",
+        "price": 8.16,
+        "change_pct": 20.0,
+        "amount_yuan": 857360999.0,
+        "turnover_pct": 12.7,
         "concepts": [
-          "其他涨停"
-        ]
+          "建材/玻璃"
+        ],
+        "limit_reason": "玻璃、建材和防水材料方向低位修复"
       },
       {
-        "code": "300735",
-        "name": "光弘科技",
+        "code": "300584",
+        "name": "海辰药业",
+        "price": 38.22,
+        "change_pct": 20.0,
+        "amount_yuan": 441486938.0,
+        "turnover_pct": 15.39,
         "concepts": [
-          "其他涨停"
-        ]
+          "医药/消费"
+        ],
+        "limit_reason": "医药、食品消费和低位消费题材活跃"
+      },
+      {
+        "code": "300475",
+        "name": "香农芯创",
+        "price": 245.29,
+        "change_pct": 19.999,
+        "amount_yuan": 11599691818.0,
+        "turnover_pct": 11.55,
+        "concepts": [
+          "半导体"
+        ],
+        "limit_reason": "国产替代与AI硬件需求共振，资金关注芯片设计/设备材料"
+      },
+      {
+        "code": "688260",
+        "name": "昀冢科技",
+        "price": 123.61,
+        "change_pct": 19.998,
+        "amount_yuan": 833225494.0,
+        "turnover_pct": 6.03,
+        "concepts": [
+          "消费电子"
+        ],
+        "limit_reason": "端侧AI、连接器和零部件弹性带动消费电子修复"
       },
       {
         "code": "301111",
         "name": "粤万年青",
+        "price": 30.31,
+        "change_pct": 19.992,
+        "amount_yuan": 337484869.0,
+        "turnover_pct": 7.38,
         "concepts": [
-          "其他涨停"
-        ]
+          "医药/消费"
+        ],
+        "limit_reason": "医药、食品消费和低位消费题材活跃"
       },
       {
-        "code": "300088",
-        "name": "长信科技",
+        "code": "300735",
+        "name": "光弘科技",
+        "price": 24.85,
+        "change_pct": 19.99,
+        "amount_yuan": 927335877.0,
+        "turnover_pct": 5.04,
         "concepts": [
           "消费电子"
-        ]
+        ],
+        "limit_reason": "端侧AI、连接器和零部件弹性带动消费电子修复"
+      },
+      {
+        "code": "300283",
+        "name": "温州宏丰",
+        "price": 22.15,
+        "change_pct": 19.989,
+        "amount_yuan": 2311039940.0,
+        "turnover_pct": 30.3,
+        "concepts": [
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
+      },
+      {
+        "code": "300351",
+        "name": "永贵电器",
+        "price": 20.53,
+        "change_pct": 19.988,
+        "amount_yuan": 960006153.0,
+        "turnover_pct": 19.12,
+        "concepts": [
+          "汽车零部件"
+        ],
+        "limit_reason": "智能车、连接器和零部件补涨扩散"
       },
       {
         "code": "688079",
         "name": "美迪凯",
+        "price": 31.94,
+        "change_pct": 19.985,
+        "amount_yuan": 492621754.0,
+        "turnover_pct": 4.0,
         "concepts": [
-          "其他涨停"
-        ]
+          "消费电子"
+        ],
+        "limit_reason": "端侧AI、连接器和零部件弹性带动消费电子修复"
       },
       {
         "code": "300386",
         "name": "飞天诚信",
+        "price": 12.37,
+        "change_pct": 19.981,
+        "amount_yuan": 307709220.0,
+        "turnover_pct": 10.68,
         "concepts": [
-          "其他涨停"
-        ]
+          "半导体"
+        ],
+        "limit_reason": "国产替代与AI硬件需求共振，资金关注芯片设计/设备材料"
+      },
+      {
+        "code": "300088",
+        "name": "长信科技",
+        "price": 10.57,
+        "change_pct": 19.977,
+        "amount_yuan": 4322246745.0,
+        "turnover_pct": 16.91,
+        "concepts": [
+          "消费电子",
+          "面板/显示"
+        ],
+        "limit_reason": "端侧AI、连接器和零部件弹性带动消费电子修复；叠加面板/显示概念"
+      },
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "price": 5.12,
+        "change_pct": 10.108,
+        "amount_yuan": 10656098124.0,
+        "turnover_pct": 11.14,
+        "concepts": [
+          "面板/显示"
+        ],
+        "limit_reason": "面板、显示模组和光电链条放量走强"
       },
       {
         "code": "600876",
         "name": "凯盛新能",
+        "price": 9.42,
+        "change_pct": 10.047,
+        "amount_yuan": 71922221.0,
+        "turnover_pct": 1.95,
         "concepts": [
-          "其他涨停"
-        ]
+          "建材/玻璃"
+        ],
+        "limit_reason": "玻璃、建材和防水材料方向低位修复"
       },
       {
-        "code": "002141",
-        "name": "贤丰控股",
+        "code": "601117",
+        "name": "中国化学",
+        "price": 8.22,
+        "change_pct": 10.04,
+        "amount_yuan": 1503337038.0,
+        "turnover_pct": 3.16,
         "concepts": [
-          "其他涨停"
-        ]
+          "基建工程"
+        ],
+        "limit_reason": "基建工程、工业装备和设备更新方向走强"
       },
       {
-        "code": "601636",
-        "name": "旗滨集团",
+        "code": "000695",
+        "name": "滨海能源",
+        "price": 14.47,
+        "change_pct": 10.038,
+        "amount_yuan": 358874176.0,
+        "turnover_pct": 11.78,
         "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "001282",
-        "name": "三联锻造",
-        "concepts": [
-          "其他涨停"
-        ]
+          "能源/油气"
+        ],
+        "limit_reason": "能源运输、油气设备和传统能源方向异动"
       },
       {
         "code": "600110",
         "name": "诺德股份",
+        "price": 17.22,
+        "change_pct": 10.032,
+        "amount_yuan": 279370306.0,
+        "turnover_pct": 0.93,
+        "concepts": [
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
+      },
+      {
+        "code": "000679",
+        "name": "大连友谊",
+        "price": 7.35,
+        "change_pct": 10.03,
+        "amount_yuan": 157769156.0,
+        "turnover_pct": 6.31,
+        "concepts": [
+          "医药/消费"
+        ],
+        "limit_reason": "医药、食品消费和低位消费题材活跃"
+      },
+      {
+        "code": "002141",
+        "name": "贤丰控股",
+        "price": 4.28,
+        "change_pct": 10.026,
+        "amount_yuan": 687193161.0,
+        "turnover_pct": 16.09,
         "concepts": [
           "其他涨停"
-        ]
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "001282",
+        "name": "三联锻造",
+        "price": 21.18,
+        "change_pct": 10.026,
+        "amount_yuan": 257027049.0,
+        "turnover_pct": 8.18,
+        "concepts": [
+          "汽车零部件"
+        ],
+        "limit_reason": "智能车、连接器和零部件补涨扩散"
+      },
+      {
+        "code": "601636",
+        "name": "旗滨集团",
+        "price": 8.67,
+        "change_pct": 10.025,
+        "amount_yuan": 563774050.0,
+        "turnover_pct": 2.2,
+        "concepts": [
+          "建材/玻璃"
+        ],
+        "limit_reason": "玻璃、建材和防水材料方向低位修复"
       },
       {
         "code": "002828",
         "name": "贝肯能源",
+        "price": 9.77,
+        "change_pct": 10.023,
+        "amount_yuan": 208380033.0,
+        "turnover_pct": 11.02,
+        "concepts": [
+          "能源/油气"
+        ],
+        "limit_reason": "能源运输、油气设备和传统能源方向异动"
+      },
+      {
+        "code": "002161",
+        "name": "远 望 谷",
+        "price": 6.26,
+        "change_pct": 10.018,
+        "amount_yuan": 280800955.0,
+        "turnover_pct": 6.38,
         "concepts": [
           "其他涨停"
-        ]
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603488",
+        "name": "展鹏科技",
+        "price": 13.18,
+        "change_pct": 10.017,
+        "amount_yuan": 499045859.0,
+        "turnover_pct": 13.55,
+        "concepts": [
+          "基建工程"
+        ],
+        "limit_reason": "基建工程、工业装备和设备更新方向走强"
       },
       {
         "code": "600676",
         "name": "交运股份",
+        "price": 7.03,
+        "change_pct": 10.016,
+        "amount_yuan": 126086049.0,
+        "turnover_pct": 1.77,
         "concepts": [
           "其他涨停"
-        ]
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
       },
       {
-        "code": "002254",
-        "name": "泰和新材",
+        "code": "000777",
+        "name": "中核科技",
+        "price": 21.86,
+        "change_pct": 10.015,
+        "amount_yuan": 1701761983.0,
+        "turnover_pct": 20.64,
         "concepts": [
-          "其他涨停"
-        ]
+          "基建工程"
+        ],
+        "limit_reason": "基建工程、工业装备和设备更新方向走强"
       },
       {
-        "code": "002579",
-        "name": "中京电子",
+        "code": "603458",
+        "name": "勘设股份",
+        "price": 14.72,
+        "change_pct": 10.015,
+        "amount_yuan": 527364936.0,
+        "turnover_pct": 12.59,
         "concepts": [
-          "PCB"
-        ]
-      },
-      {
-        "code": "605006",
-        "name": "山东玻纤",
-        "concepts": [
-          "其他涨停"
-        ]
+          "基建工程"
+        ],
+        "limit_reason": "基建工程、工业装备和设备更新方向走强"
       },
       {
         "code": "002741",
         "name": "光华科技",
+        "price": 39.44,
+        "change_pct": 10.014,
+        "amount_yuan": 806009465.0,
+        "turnover_pct": 4.83,
         "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "603002",
-        "name": "宏昌电子",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "002989",
-        "name": "中天精装",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "002918",
-        "name": "蒙娜丽莎",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "002906",
-        "name": "华阳集团",
-        "concepts": [
-          "其他涨停"
-        ]
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
       },
       {
         "code": "600192",
         "name": "长城电工",
+        "price": 8.35,
+        "change_pct": 10.013,
+        "amount_yuan": 243748936.0,
+        "turnover_pct": 6.66,
         "concepts": [
-          "其他涨停"
-        ]
+          "基建工程"
+        ],
+        "limit_reason": "基建工程、工业装备和设备更新方向走强"
+      },
+      {
+        "code": "002906",
+        "name": "华阳集团",
+        "price": 28.9,
+        "change_pct": 10.011,
+        "amount_yuan": 318343155.0,
+        "turnover_pct": 2.16,
+        "concepts": [
+          "汽车零部件"
+        ],
+        "limit_reason": "智能车、连接器和零部件补涨扩散"
+      },
+      {
+        "code": "002918",
+        "name": "蒙娜丽莎",
+        "price": 12.53,
+        "change_pct": 10.009,
+        "amount_yuan": 319472573.0,
+        "turnover_pct": 12.51,
+        "concepts": [
+          "建材/玻璃"
+        ],
+        "limit_reason": "玻璃、建材和防水材料方向低位修复"
       },
       {
         "code": "603976",
         "name": "正川股份",
+        "price": 27.7,
+        "change_pct": 10.008,
+        "amount_yuan": 148771190.0,
+        "turnover_pct": 3.67,
         "concepts": [
-          "其他涨停"
-        ]
+          "医药/消费"
+        ],
+        "limit_reason": "医药、食品消费和低位消费题材活跃"
       },
       {
-        "code": "000725",
-        "name": "京东方Ａ",
+        "code": "600397",
+        "name": "江钨装备",
+        "price": 18.36,
+        "change_pct": 10.006,
+        "amount_yuan": 2570234408.0,
+        "turnover_pct": 14.73,
         "concepts": [
-          "其他涨停"
-        ]
+          "基建工程"
+        ],
+        "limit_reason": "基建工程、工业装备和设备更新方向走强"
       },
       {
-        "code": "600378",
-        "name": "昊华科技",
+        "code": "002254",
+        "name": "泰和新材",
+        "price": 18.58,
+        "change_pct": 10.006,
+        "amount_yuan": 2011525939.0,
+        "turnover_pct": 13.24,
         "concepts": [
-          "其他涨停"
-        ]
+          "新材料/化工",
+          "复合材料"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动；叠加复合材料概念"
       },
       {
-        "code": "002491",
-        "name": "通鼎互联",
+        "code": "002579",
+        "name": "中京电子",
+        "price": 18.47,
+        "change_pct": 10.006,
+        "amount_yuan": 1707542247.0,
+        "turnover_pct": 16.54,
         "concepts": [
-          "CPO/光通信"
-        ]
+          "PCB"
+        ],
+        "limit_reason": "AI服务器与高速连接需求改善，PCB/铜连接方向走强"
       },
       {
-        "code": "002916",
-        "name": "深南电路",
+        "code": "002989",
+        "name": "中天精装",
+        "price": 33.97,
+        "change_pct": 10.006,
+        "amount_yuan": 739530531.0,
+        "turnover_pct": 12.11,
         "concepts": [
           "其他涨停"
-        ]
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
       },
       {
-        "code": "600026",
-        "name": "中远海能",
+        "code": "603002",
+        "name": "宏昌电子",
+        "price": 23.2,
+        "change_pct": 10.005,
+        "amount_yuan": 1801844538.0,
+        "turnover_pct": 6.92,
         "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "603773",
-        "name": "沃格光电",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "000823",
-        "name": "超声电子",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "603186",
-        "name": "华正新材",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "002201",
-        "name": "九鼎新材",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "603989",
-        "name": "艾华集团",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "603115",
-        "name": "海星股份",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "000811",
-        "name": "冰轮环境",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "002066",
-        "name": "瑞泰科技",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "001326",
-        "name": "联域股份",
-        "concepts": [
-          "其他涨停"
-        ]
+          "PCB"
+        ],
+        "limit_reason": "AI服务器与高速连接需求改善，PCB/铜连接方向走强"
       },
       {
         "code": "603285",
         "name": "键邦股份",
+        "price": 50.58,
+        "change_pct": 10.004,
+        "amount_yuan": 187149214.0,
+        "turnover_pct": 6.14,
         "concepts": [
           "其他涨停"
-        ]
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
       },
       {
-        "code": "603261",
-        "name": "立航科技",
+        "code": "603186",
+        "name": "华正新材",
+        "price": 226.67,
+        "change_pct": 10.002,
+        "amount_yuan": 3603072153.0,
+        "turnover_pct": 10.23,
         "concepts": [
-          "其他涨停"
-        ]
+          "PCB"
+        ],
+        "limit_reason": "AI服务器与高速连接需求改善，PCB/铜连接方向走强"
       },
       {
-        "code": "600176",
-        "name": "中国巨石",
+        "code": "603986",
+        "name": "兆易创新",
+        "price": 586.04,
+        "change_pct": 10.001,
+        "amount_yuan": 31598894526.0,
+        "turnover_pct": 8.5,
         "concepts": [
-          "其他涨停"
-        ]
+          "半导体"
+        ],
+        "limit_reason": "国产替代与AI硬件需求共振，资金关注芯片设计/设备材料"
       },
       {
-        "code": "600673",
-        "name": "东阳光",
+        "code": "002938",
+        "name": "鹏鼎控股",
+        "price": 119.01,
+        "change_pct": 10.001,
+        "amount_yuan": 7448793106.0,
+        "turnover_pct": 2.79,
         "concepts": [
-          "其他涨停"
-        ]
+          "PCB"
+        ],
+        "limit_reason": "AI服务器与高速连接需求改善，PCB/铜连接方向走强"
       },
       {
-        "code": "600707",
-        "name": "彩虹股份",
+        "code": "603929",
+        "name": "亚翔集成",
+        "price": 232.18,
+        "change_pct": 10.001,
+        "amount_yuan": 2165250738.0,
+        "turnover_pct": 4.68,
         "concepts": [
-          "其他涨停"
-        ]
+          "半导体设备/先进封装"
+        ],
+        "limit_reason": "半导体设备、洁净室和先进制造环节受资金追捧"
       },
       {
-        "code": "603618",
-        "name": "杭电股份",
+        "code": "000725",
+        "name": "京东方Ａ",
+        "price": 6.71,
+        "change_pct": 10.0,
+        "amount_yuan": 12134264342.0,
+        "turnover_pct": 5.25,
         "concepts": [
-          "其他涨停"
-        ]
+          "面板/显示"
+        ],
+        "limit_reason": "面板、显示模组和光电链条放量走强"
       },
       {
-        "code": "600353",
-        "name": "旭光电子",
+        "code": "600378",
+        "name": "昊华科技",
+        "price": 63.8,
+        "change_pct": 10.0,
+        "amount_yuan": 6959652993.0,
+        "turnover_pct": 10.63,
         "concepts": [
-          "其他涨停"
-        ]
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
       },
       {
-        "code": "603324",
-        "name": "盛剑科技",
+        "code": "002916",
+        "name": "深南电路",
+        "price": 444.27,
+        "change_pct": 10.0,
+        "amount_yuan": 5194632556.0,
+        "turnover_pct": 1.81,
         "concepts": [
-          "其他涨停"
-        ]
+          "PCB"
+        ],
+        "limit_reason": "AI服务器与高速连接需求改善，PCB/铜连接方向走强"
       },
       {
-        "code": "000050",
-        "name": "深天马Ａ",
+        "code": "002491",
+        "name": "通鼎互联",
+        "price": 28.71,
+        "change_pct": 10.0,
+        "amount_yuan": 5178287809.0,
+        "turnover_pct": 16.0,
         "concepts": [
-          "其他涨停"
-        ]
+          "CPO/光通信"
+        ],
+        "limit_reason": "AI算力需求带动高速光模块、光通信链条活跃"
       },
       {
-        "code": "603139",
-        "name": "康惠股份",
+        "code": "600026",
+        "name": "中远海能",
+        "price": 19.69,
+        "change_pct": 10.0,
+        "amount_yuan": 2028316755.0,
+        "turnover_pct": 2.79,
         "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "603637",
-        "name": "镇海股份",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "600186",
-        "name": "莲花控股",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "600552",
-        "name": "凯盛科技",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "002083",
-        "name": "孚日股份",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "600237",
-        "name": "铜峰电子",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "603020",
-        "name": "爱普股份",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "603601",
-        "name": "再升科技",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "002106",
-        "name": "莱宝高科",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "002404",
-        "name": "嘉欣丝绸",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "603880",
-        "name": "南卫股份",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "002177",
-        "name": "御银股份",
-        "concepts": [
-          "其他涨停"
-        ]
-      },
-      {
-        "code": "002080",
-        "name": "中材科技",
-        "concepts": [
-          "其他涨停"
-        ]
+          "能源/油气"
+        ],
+        "limit_reason": "能源运输、油气设备和传统能源方向异动"
       },
       {
         "code": "001339",
         "name": "智微智能",
+        "price": 115.39,
+        "change_pct": 10.0,
+        "amount_yuan": 1544304063.0,
+        "turnover_pct": 11.0,
+        "concepts": [
+          "消费电子"
+        ],
+        "limit_reason": "端侧AI、连接器和零部件弹性带动消费电子修复"
+      },
+      {
+        "code": "000823",
+        "name": "超声电子",
+        "price": 22.11,
+        "change_pct": 10.0,
+        "amount_yuan": 1496065139.0,
+        "turnover_pct": 11.68,
+        "concepts": [
+          "PCB"
+        ],
+        "limit_reason": "AI服务器与高速连接需求改善，PCB/铜连接方向走强"
+      },
+      {
+        "code": "000672",
+        "name": "上峰材料",
+        "price": 19.03,
+        "change_pct": 10.0,
+        "amount_yuan": 839488186.0,
+        "turnover_pct": 4.77,
+        "concepts": [
+          "建材/玻璃"
+        ],
+        "limit_reason": "玻璃、建材和防水材料方向低位修复"
+      },
+      {
+        "code": "002201",
+        "name": "九鼎新材",
+        "price": 12.76,
+        "change_pct": 10.0,
+        "amount_yuan": 729626170.0,
+        "turnover_pct": 9.74,
+        "concepts": [
+          "新材料/化工",
+          "复合材料"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动；叠加复合材料概念"
+      },
+      {
+        "code": "603989",
+        "name": "艾华集团",
+        "price": 37.73,
+        "change_pct": 10.0,
+        "amount_yuan": 547646665.0,
+        "turnover_pct": 3.72,
+        "concepts": [
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
+      },
+      {
+        "code": "000811",
+        "name": "冰轮环境",
+        "price": 36.52,
+        "change_pct": 10.0,
+        "amount_yuan": 347706336.0,
+        "turnover_pct": 0.97,
+        "concepts": [
+          "能源/油气"
+        ],
+        "limit_reason": "能源运输、油气设备和传统能源方向异动"
+      },
+      {
+        "code": "001223",
+        "name": "欧克科技",
+        "price": 49.83,
+        "change_pct": 10.0,
+        "amount_yuan": 244981328.0,
+        "turnover_pct": 7.33,
         "concepts": [
           "其他涨停"
-        ]
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "001326",
+        "name": "联域股份",
+        "price": 74.03,
+        "change_pct": 10.0,
+        "amount_yuan": 200625554.0,
+        "turnover_pct": 11.5,
+        "concepts": [
+          "消费电子"
+        ],
+        "limit_reason": "端侧AI、连接器和零部件弹性带动消费电子修复"
+      },
+      {
+        "code": "603261",
+        "name": "立航科技",
+        "price": 40.7,
+        "change_pct": 10.0,
+        "amount_yuan": 89424929.0,
+        "turnover_pct": 2.9,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603773",
+        "name": "沃格光电",
+        "price": 166.13,
+        "change_pct": 9.998,
+        "amount_yuan": 1950594962.0,
+        "turnover_pct": 5.31,
+        "concepts": [
+          "面板/显示"
+        ],
+        "limit_reason": "面板、显示模组和光电链条放量走强"
+      },
+      {
+        "code": "002080",
+        "name": "中材科技",
+        "price": 82.41,
+        "change_pct": 9.997,
+        "amount_yuan": 6698619785.0,
+        "turnover_pct": 4.92,
+        "concepts": [
+          "新材料/化工",
+          "建材/玻璃",
+          "复合材料"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动；叠加建材/玻璃、复合材料概念"
+      },
+      {
+        "code": "603115",
+        "name": "海星股份",
+        "price": 119.94,
+        "change_pct": 9.996,
+        "amount_yuan": 531354651.0,
+        "turnover_pct": 1.87,
+        "concepts": [
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
+      },
+      {
+        "code": "603283",
+        "name": "赛腾股份",
+        "price": 63.06,
+        "change_pct": 9.995,
+        "amount_yuan": 1981130137.0,
+        "turnover_pct": 9.38,
+        "concepts": [
+          "半导体设备/先进封装"
+        ],
+        "limit_reason": "半导体设备、洁净室和先进制造环节受资金追捧"
+      },
+      {
+        "code": "603139",
+        "name": "康惠股份",
+        "price": 44.13,
+        "change_pct": 9.995,
+        "amount_yuan": 228514570.0,
+        "turnover_pct": 5.35,
+        "concepts": [
+          "医药/消费"
+        ],
+        "limit_reason": "医药、食品消费和低位消费题材活跃"
+      },
+      {
+        "code": "603618",
+        "name": "杭电股份",
+        "price": 51.73,
+        "change_pct": 9.994,
+        "amount_yuan": 1575478546.0,
+        "turnover_pct": 4.48,
+        "concepts": [
+          "CPO/光通信"
+        ],
+        "limit_reason": "AI算力需求带动高速光模块、光通信链条活跃"
+      },
+      {
+        "code": "600353",
+        "name": "旭光电子",
+        "price": 38.19,
+        "change_pct": 9.994,
+        "amount_yuan": 1113021726.0,
+        "turnover_pct": 3.52,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603324",
+        "name": "盛剑科技",
+        "price": 39.18,
+        "change_pct": 9.994,
+        "amount_yuan": 539087770.0,
+        "turnover_pct": 9.77,
+        "concepts": [
+          "半导体设备/先进封装"
+        ],
+        "limit_reason": "半导体设备、洁净室和先进制造环节受资金追捧"
+      },
+      {
+        "code": "603637",
+        "name": "镇海股份",
+        "price": 18.27,
+        "change_pct": 9.994,
+        "amount_yuan": 162183395.0,
+        "turnover_pct": 3.84,
+        "concepts": [
+          "基建工程"
+        ],
+        "limit_reason": "基建工程、工业装备和设备更新方向走强"
+      },
+      {
+        "code": "600176",
+        "name": "中国巨石",
+        "price": 54.6,
+        "change_pct": 9.992,
+        "amount_yuan": 7036662812.0,
+        "turnover_pct": 3.27,
+        "concepts": [
+          "新材料/化工",
+          "建材/玻璃",
+          "复合材料"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动；叠加建材/玻璃、复合材料概念"
+      },
+      {
+        "code": "600673",
+        "name": "东阳光",
+        "price": 35.89,
+        "change_pct": 9.991,
+        "amount_yuan": 5115895083.0,
+        "turnover_pct": 4.85,
+        "concepts": [
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
+      },
+      {
+        "code": "600707",
+        "name": "彩虹股份",
+        "price": 12.66,
+        "change_pct": 9.991,
+        "amount_yuan": 2643924057.0,
+        "turnover_pct": 6.01,
+        "concepts": [
+          "面板/显示"
+        ],
+        "limit_reason": "面板、显示模组和光电链条放量走强"
+      },
+      {
+        "code": "002484",
+        "name": "江海股份",
+        "price": 104.93,
+        "change_pct": 9.99,
+        "amount_yuan": 6259376657.0,
+        "turnover_pct": 7.47,
+        "concepts": [
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
+      },
+      {
+        "code": "000050",
+        "name": "深天马Ａ",
+        "price": 9.14,
+        "change_pct": 9.988,
+        "amount_yuan": 520988412.0,
+        "turnover_pct": 2.37,
+        "concepts": [
+          "面板/显示"
+        ],
+        "limit_reason": "面板、显示模组和光电链条放量走强"
+      },
+      {
+        "code": "600552",
+        "name": "凯盛科技",
+        "price": 24.13,
+        "change_pct": 9.982,
+        "amount_yuan": 1581555397.0,
+        "turnover_pct": 7.11,
+        "concepts": [
+          "面板/显示",
+          "建材/玻璃"
+        ],
+        "limit_reason": "面板、显示模组和光电链条放量走强；叠加建材/玻璃概念"
+      },
+      {
+        "code": "600237",
+        "name": "铜峰电子",
+        "price": 12.56,
+        "change_pct": 9.982,
+        "amount_yuan": 912731330.0,
+        "turnover_pct": 11.87,
+        "concepts": [
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
+      },
+      {
+        "code": "600186",
+        "name": "莲花控股",
+        "price": 14.66,
+        "change_pct": 9.977,
+        "amount_yuan": 2988177536.0,
+        "turnover_pct": 11.68,
+        "concepts": [
+          "医药/消费"
+        ],
+        "limit_reason": "医药、食品消费和低位消费题材活跃"
+      },
+      {
+        "code": "603020",
+        "name": "爱普股份",
+        "price": 13.89,
+        "change_pct": 9.976,
+        "amount_yuan": 413910144.0,
+        "turnover_pct": 8.09,
+        "concepts": [
+          "医药/消费"
+        ],
+        "limit_reason": "医药、食品消费和低位消费题材活跃"
+      },
+      {
+        "code": "000955",
+        "name": "欣龙控股",
+        "price": 4.63,
+        "change_pct": 9.976,
+        "amount_yuan": 194279701.0,
+        "turnover_pct": 8.31,
+        "concepts": [
+          "纺织检测"
+        ],
+        "limit_reason": "北交所高弹性与纺织检测细分方向活跃"
+      },
+      {
+        "code": "603601",
+        "name": "再升科技",
+        "price": 15.77,
+        "change_pct": 9.972,
+        "amount_yuan": 2490928451.0,
+        "turnover_pct": 14.18,
+        "concepts": [
+          "新材料/化工"
+        ],
+        "limit_reason": "高端制造材料、化工材料和涨价线索驱动"
+      },
+      {
+        "code": "600579",
+        "name": "中化装备",
+        "price": 7.5,
+        "change_pct": 9.971,
+        "amount_yuan": 141947735.0,
+        "turnover_pct": 4.16,
+        "concepts": [
+          "基建工程"
+        ],
+        "limit_reason": "基建工程、工业装备和设备更新方向走强"
+      },
+      {
+        "code": "002106",
+        "name": "莱宝高科",
+        "price": 14.78,
+        "change_pct": 9.97,
+        "amount_yuan": 604070882.0,
+        "turnover_pct": 5.94,
+        "concepts": [
+          "面板/显示"
+        ],
+        "limit_reason": "面板、显示模组和光电链条放量走强"
+      },
+      {
+        "code": "002404",
+        "name": "嘉欣丝绸",
+        "price": 6.84,
+        "change_pct": 9.968,
+        "amount_yuan": 176257668.0,
+        "turnover_pct": 5.85,
+        "concepts": [
+          "医药/消费",
+          "纺织检测"
+        ],
+        "limit_reason": "医药、食品消费和低位消费题材活跃；叠加纺织检测概念"
+      },
+      {
+        "code": "600615",
+        "name": "鑫源智造",
+        "price": 11.04,
+        "change_pct": 9.96,
+        "amount_yuan": 151346554.0,
+        "turnover_pct": 6.51,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603880",
+        "name": "南卫股份",
+        "price": 8.06,
+        "change_pct": 9.959,
+        "amount_yuan": 57982902.0,
+        "turnover_pct": 2.62,
+        "concepts": [
+          "医药/消费"
+        ],
+        "limit_reason": "医药、食品消费和低位消费题材活跃"
+      },
+      {
+        "code": "605198",
+        "name": "安德利",
+        "price": 86.1,
+        "change_pct": 9.807,
+        "amount_yuan": 1818618596.0,
+        "turnover_pct": 8.02,
+        "concepts": [
+          "医药/消费"
+        ],
+        "limit_reason": "医药、食品消费和低位消费题材活跃"
       }
     ]
   }
