@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-18 19:38:23",
-  "data_updated_at": "2026-06-18 19:38:23",
-  "last_checked_at": "2026-06-18 19:38:23",
-  "trade_date": "2026-06-18",
+  "updated_at": "2026-06-19 18:11:24",
+  "data_updated_at": "2026-06-19 18:11:24",
+  "last_checked_at": "2026-06-19 18:11:24",
+  "trade_date": "2026-06-19",
   "status": "ok",
   "source": "Tencent index quote + Sina A-share rank fallback; Eastmoney when available",
   "source_status": {
@@ -15,7 +15,7 @@
     "detail_fundamentals": "partial_from_sina_rank",
     "freshness": "fresh_fetch",
     "notes": [],
-    "updated_at": "2026-06-18 19:38:23"
+    "updated_at": "2026-06-19 18:11:24"
   },
   "indices": [
     {
@@ -121,9 +121,7 @@
             "北交所"
           ],
           "limit_reason": "高端制造材料、化工材料和涨价线索驱动；叠加复合材料、专精特新概念",
-          "new_concepts": [
-            "新材料/化工"
-          ]
+          "new_concepts": []
         },
         {
           "code": "688598",
@@ -267,9 +265,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "300166",
@@ -288,15 +284,13 @@
           "pb": 3.734,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:36:00",
+          "ticktime": "16:30:00",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "300319",
@@ -315,15 +309,13 @@
           "pb": 4.998,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:15",
+          "ticktime": "16:29:15",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "688485",
@@ -348,9 +340,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "688478",
@@ -375,9 +365,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "301580",
@@ -396,15 +384,13 @@
           "pb": 4.345,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:30",
+          "ticktime": "16:29:30",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "688515",
@@ -429,9 +415,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "688227",
@@ -456,9 +440,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "301687",
@@ -477,15 +459,13 @@
           "pb": 7.895,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:00",
+          "ticktime": "16:29:00",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "300943",
@@ -504,15 +484,13 @@
           "pb": 8.26,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "688671",
@@ -537,9 +515,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "301310",
@@ -558,17 +534,14 @@
           "pb": 3.771,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "工业母机",
             "铜连接/高速连接"
           ],
           "limit_reason": "高端制造设备、机床和自动化方向资金回流；叠加铜连接/高速连接概念",
-          "new_concepts": [
-            "工业母机",
-            "铜连接/高速连接"
-          ]
+          "new_concepts": []
         },
         {
           "code": "688729",
@@ -593,9 +566,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "300522",
@@ -614,7 +585,7 @@
           "pb": 7.825,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:30",
+          "ticktime": "16:29:30",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
@@ -639,15 +610,13 @@
           "pb": 2.472,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:15",
+          "ticktime": "16:29:15",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600162",
@@ -672,9 +641,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000889",
@@ -699,9 +666,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603313",
@@ -726,9 +691,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600399",
@@ -753,9 +716,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603616",
@@ -780,9 +741,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002141",
@@ -832,9 +791,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002442",
@@ -859,9 +816,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000839",
@@ -886,9 +841,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600226",
@@ -913,9 +866,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002159",
@@ -940,9 +891,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002167",
@@ -967,9 +916,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600397",
@@ -1019,9 +966,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002674",
@@ -1046,9 +991,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002579",
@@ -1123,9 +1066,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603679",
@@ -1150,9 +1091,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603177",
@@ -1177,9 +1116,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002989",
@@ -1229,9 +1166,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002297",
@@ -1256,9 +1191,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002971",
@@ -1283,9 +1216,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603407",
@@ -1310,9 +1241,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002907",
@@ -1337,9 +1266,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600392",
@@ -1364,9 +1291,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002747",
@@ -1391,9 +1316,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002842",
@@ -1418,9 +1341,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "001296",
@@ -1445,9 +1366,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002859",
@@ -1472,9 +1391,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600353",
@@ -1524,9 +1441,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "605376",
@@ -1551,9 +1466,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "001339",
@@ -1603,9 +1516,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002203",
@@ -1630,9 +1541,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002897",
@@ -1657,9 +1566,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603991",
@@ -1684,9 +1591,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603124",
@@ -1711,9 +1616,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "001365",
@@ -1738,9 +1641,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603082",
@@ -1765,9 +1666,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002068",
@@ -1792,9 +1691,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000608",
@@ -1819,9 +1716,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603380",
@@ -1846,9 +1741,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603261",
@@ -1898,9 +1791,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000657",
@@ -1925,9 +1816,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002491",
@@ -1977,9 +1866,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603496",
@@ -2004,9 +1891,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603663",
@@ -2031,9 +1916,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000811",
@@ -2083,9 +1966,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603127",
@@ -2110,9 +1991,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000534",
@@ -2137,9 +2016,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603001",
@@ -2164,9 +2041,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603211",
@@ -2191,9 +2066,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002655",
@@ -2218,9 +2091,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002158",
@@ -2245,9 +2116,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002317",
@@ -2272,9 +2141,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600667",
@@ -2299,9 +2166,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "605086",
@@ -2326,9 +2191,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600769",
@@ -2353,9 +2216,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002392",
@@ -2380,9 +2241,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "001216",
@@ -2407,9 +2266,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600851",
@@ -2434,9 +2291,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002805",
@@ -2461,9 +2316,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603201",
@@ -2488,9 +2341,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600671",
@@ -2515,9 +2366,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002950",
@@ -2542,9 +2391,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002354",
@@ -2569,9 +2416,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603223",
@@ -2596,9 +2441,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603956",
@@ -2623,9 +2466,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002734",
@@ -2650,9 +2491,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600076",
@@ -2677,9 +2516,7 @@
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         }
       ]
     }
@@ -2711,9 +2548,7 @@
         "北交所"
       ],
       "limit_reason": "高端制造材料、化工材料和涨价线索驱动；叠加复合材料、专精特新概念",
-      "new_concepts": [
-        "新材料/化工"
-      ]
+      "new_concepts": []
     },
     {
       "code": "920009",
@@ -2738,9 +2573,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "300166",
@@ -2759,15 +2592,13 @@
       "pb": 3.734,
       "pe": -98.421,
       "industry": "",
-      "ticktime": "15:36:00",
+      "ticktime": "16:30:00",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "300319",
@@ -2786,15 +2617,13 @@
       "pb": 4.998,
       "pe": 77.175,
       "industry": "",
-      "ticktime": "15:35:15",
+      "ticktime": "16:29:15",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "688485",
@@ -2819,9 +2648,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "688478",
@@ -2846,9 +2673,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "688598",
@@ -2892,15 +2717,13 @@
       "pb": 4.345,
       "pe": 34.332,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "688333",
@@ -2950,9 +2773,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "688227",
@@ -2977,9 +2798,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "301687",
@@ -2998,15 +2817,13 @@
       "pb": 7.895,
       "pe": 73.607,
       "industry": "",
-      "ticktime": "15:35:00",
+      "ticktime": "16:29:00",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "300943",
@@ -3025,15 +2842,13 @@
       "pb": 8.26,
       "pe": 142.759,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "688671",
@@ -3058,9 +2873,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "301310",
@@ -3079,17 +2892,14 @@
       "pb": 3.771,
       "pe": 47.909,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "工业母机",
         "铜连接/高速连接"
       ],
       "limit_reason": "高端制造设备、机床和自动化方向资金回流；叠加铜连接/高速连接概念",
-      "new_concepts": [
-        "工业母机",
-        "铜连接/高速连接"
-      ]
+      "new_concepts": []
     },
     {
       "code": "688729",
@@ -3114,9 +2924,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "300522",
@@ -3135,7 +2943,7 @@
       "pb": 7.825,
       "pe": 303.476,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
@@ -3160,15 +2968,13 @@
       "pb": 2.472,
       "pe": 66.924,
       "industry": "",
-      "ticktime": "15:35:15",
+      "ticktime": "16:29:15",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600162",
@@ -3193,9 +2999,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000889",
@@ -3220,9 +3024,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603313",
@@ -3247,9 +3049,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600399",
@@ -3274,9 +3074,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603616",
@@ -3301,9 +3099,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002141",
@@ -3353,9 +3149,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002442",
@@ -3380,9 +3174,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000839",
@@ -3407,9 +3199,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600226",
@@ -3434,9 +3224,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002159",
@@ -3461,9 +3249,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002167",
@@ -3488,9 +3274,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600397",
@@ -3540,9 +3324,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002674",
@@ -3567,9 +3349,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002579",
@@ -3644,9 +3424,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603679",
@@ -3671,9 +3449,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603177",
@@ -3698,9 +3474,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002989",
@@ -3750,9 +3524,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002297",
@@ -3777,9 +3549,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002971",
@@ -3804,9 +3574,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603407",
@@ -3831,9 +3599,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002907",
@@ -3858,9 +3624,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600392",
@@ -3885,9 +3649,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002747",
@@ -3912,9 +3674,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002842",
@@ -3939,9 +3699,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603324",
@@ -3991,9 +3749,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002859",
@@ -4018,9 +3774,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600353",
@@ -4070,9 +3824,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "605376",
@@ -4097,9 +3849,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "001339",
@@ -4149,9 +3899,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002203",
@@ -4176,9 +3924,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002897",
@@ -4203,9 +3949,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603991",
@@ -4230,9 +3974,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603124",
@@ -4257,9 +3999,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "001365",
@@ -4284,9 +4024,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603082",
@@ -4311,9 +4049,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002068",
@@ -4338,9 +4074,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000608",
@@ -4365,9 +4099,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603380",
@@ -4392,9 +4124,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603261",
@@ -4444,9 +4174,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000657",
@@ -4471,9 +4199,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002491",
@@ -4523,9 +4249,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603496",
@@ -4550,9 +4274,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603663",
@@ -4577,9 +4299,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000811",
@@ -4629,9 +4349,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603127",
@@ -4656,9 +4374,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000534",
@@ -4683,9 +4399,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603989",
@@ -4735,9 +4449,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603211",
@@ -4762,9 +4474,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002655",
@@ -4789,9 +4499,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002158",
@@ -4816,9 +4524,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002317",
@@ -4843,9 +4549,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600667",
@@ -4870,9 +4574,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "605086",
@@ -4897,9 +4599,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600769",
@@ -4924,9 +4624,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002392",
@@ -4951,9 +4649,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "001216",
@@ -4978,9 +4674,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600851",
@@ -5005,9 +4699,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002805",
@@ -5032,9 +4724,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603201",
@@ -5059,9 +4749,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600671",
@@ -5086,9 +4774,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002950",
@@ -5113,9 +4799,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002354",
@@ -5140,9 +4824,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603223",
@@ -5167,9 +4849,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603956",
@@ -5194,9 +4874,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002734",
@@ -5221,9 +4899,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600076",
@@ -5248,9 +4924,7 @@
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     }
   ],
   "hot_board_tracking": [
@@ -5261,43 +4935,6 @@
       "trend": "连续活跃",
       "highlight": true,
       "history": [
-        {
-          "date": "2026-06-16",
-          "count": 30,
-          "leader": "金戈新材",
-          "stocks": [
-            "金戈新材",
-            "德恩精工",
-            "长进光子",
-            "通用电梯",
-            "南方泵业",
-            "东望时代",
-            "合力泰",
-            "宝鹰股份",
-            "常铝股份",
-            "旗滨集团",
-            "万憬能源",
-            "大连友谊",
-            "新疆众和",
-            "武汉凡谷",
-            "福达股份",
-            "卓郎智能",
-            "水发燃气",
-            "望变电气",
-            "兰石重装",
-            "宏昌电子",
-            "神州数码",
-            "江钨装备",
-            "金字火腿",
-            "京基智农",
-            "华脉科技",
-            "可立克",
-            "聚合顺",
-            "威尔泰",
-            "柘中股份",
-            "中核科技"
-          ]
-        },
         {
           "date": "2026-06-17",
           "count": 10,
@@ -5412,134 +5049,110 @@
             "利民股份",
             "康欣新材"
           ]
-        }
-      ]
-    },
-    {
-      "concept": "PCB",
-      "active_days": 2,
-      "latest_count": 8,
-      "trend": "连续活跃",
-      "highlight": true,
-      "history": [
-        {
-          "date": "2026-06-16",
-          "count": 3,
-          "leader": "胜蓝股份",
-          "stocks": [
-            "胜蓝股份",
-            "本川智能",
-            "逸豪新材"
-          ]
         },
         {
-          "date": "2026-06-17",
-          "count": 8,
-          "leader": "科翔股份",
+          "date": "2026-06-19",
+          "count": 91,
+          "leader": "丹娜生物",
           "stocks": [
-            "科翔股份",
-            "一博科技",
+            "丹娜生物",
+            "东方国信",
+            "麦捷科技",
+            "九州一轨",
+            "晶升股份",
+            "爱迪特",
+            "裕太微",
+            "品高股份",
+            "新广益",
+            "春晖智控",
+            "碧兴物联",
+            "鑫宏业",
+            "屹唐股份",
+            "世名科技",
+            "美畅股份",
+            "香江控股",
+            "中嘉博创",
+            "梦百合",
+            "抚顺特钢",
+            "韩建河山",
+            "贤丰控股",
+            "天润工业",
+            "龙星科技",
+            "国安股份",
+            "亨通股份",
+            "三特索道",
+            "东方锆业",
+            "江钨装备",
+            "上海机电",
+            "兴业科技",
             "中京电子",
-            "宏昌电子",
-            "华正新材",
-            "鹏鼎控股",
-            "深南电路",
-            "超声电子"
-          ]
-        }
-      ]
-    },
-    {
-      "concept": "消费电子",
-      "active_days": 2,
-      "latest_count": 6,
-      "trend": "连续活跃",
-      "highlight": true,
-      "history": [
-        {
-          "date": "2026-06-16",
-          "count": 2,
-          "leader": "胜蓝股份",
-          "stocks": [
-            "胜蓝股份",
-            "雅创电子"
-          ]
-        },
-        {
-          "date": "2026-06-17",
-          "count": 6,
-          "leader": "昀冢科技",
-          "stocks": [
-            "昀冢科技",
-            "光弘科技",
-            "美迪凯",
-            "长信科技",
+            "卓郎智能",
+            "合锻智能",
+            "华体科技",
+            "德创环保",
+            "中天精装",
+            "江西铜业",
+            "博云新材",
+            "和远气体",
+            "长裕集团",
+            "华森制药",
+            "盛和资源",
+            "埃斯顿",
+            "翔鹭钨业",
+            "长江材料",
+            "洁美科技",
+            "旭光电子",
+            "中瓷电子",
+            "博迁新材",
             "智微智能",
-            "联域股份"
-          ]
-        }
-      ]
-    },
-    {
-      "concept": "半导体",
-      "active_days": 2,
-      "latest_count": 4,
-      "trend": "连续活跃",
-      "highlight": true,
-      "history": [
-        {
-          "date": "2026-06-16",
-          "count": 2,
-          "leader": "南芯科技",
-          "stocks": [
-            "南芯科技",
-            "雅创电子"
-          ]
-        },
-        {
-          "date": "2026-06-17",
-          "count": 4,
-          "leader": "普冉股份",
-          "stocks": [
-            "普冉股份",
-            "香农芯创",
-            "飞天诚信",
-            "兆易创新"
-          ]
-        }
-      ]
-    },
-    {
-      "concept": "汽车零部件",
-      "active_days": 2,
-      "latest_count": 3,
-      "trend": "连续活跃",
-      "highlight": true,
-      "history": [
-        {
-          "date": "2026-06-16",
-          "count": 2,
-          "leader": "胜蓝股份",
-          "stocks": [
-            "胜蓝股份",
-            "肇民科技"
-          ]
-        },
-        {
-          "date": "2026-06-17",
-          "count": 3,
-          "leader": "永贵电器",
-          "stocks": [
-            "永贵电器",
-            "三联锻造",
-            "华阳集团"
+            "光迅科技",
+            "海亮股份",
+            "意华股份",
+            "领先股份",
+            "江南新材",
+            "天海电子",
+            "北自科技",
+            "黑猫股份",
+            "阳光股份",
+            "易德龙",
+            "立航科技",
+            "中稀有色",
+            "中钨高新",
+            "通鼎互联",
+            "九安医疗",
+            "XD恒为科",
+            "三祥新材",
+            "冰轮环境",
+            "华达科技",
+            "昭衍新药",
+            "万泽股份",
+            "奥康国际",
+            "晋拓股份",
+            "共达电声",
+            "汉钟精机",
+            "众生药业",
+            "太极实业",
+            "龙高股份",
+            "祥龙电业",
+            "北京利尔",
+            "华瓷股份",
+            "海欣股份",
+            "丰元股份",
+            "常润股份",
+            "天目药业",
+            "奥美医疗",
+            "天娱数科",
+            "恒通股份",
+            "威派格",
+            "利民股份",
+            "康欣新材"
           ]
         }
       ]
     },
     {
       "concept": "新材料/化工",
-      "active_days": 2,
+      "active_days": 3,
       "latest_count": 3,
       "trend": "连续活跃",
       "highlight": true,
@@ -5576,12 +5189,22 @@
             "金博股份",
             "艾华集团"
           ]
+        },
+        {
+          "date": "2026-06-19",
+          "count": 3,
+          "leader": "金戈新材",
+          "stocks": [
+            "金戈新材",
+            "金博股份",
+            "艾华集团"
+          ]
         }
       ]
     },
     {
       "concept": "半导体设备/先进封装",
-      "active_days": 2,
+      "active_days": 3,
       "latest_count": 2,
       "trend": "连续活跃",
       "highlight": true,
@@ -5601,6 +5224,15 @@
         },
         {
           "date": "2026-06-18",
+          "count": 2,
+          "leader": "铂力特",
+          "stocks": [
+            "铂力特",
+            "盛剑科技"
+          ]
+        },
+        {
+          "date": "2026-06-19",
           "count": 2,
           "leader": "铂力特",
           "stocks": [
@@ -5637,25 +5269,25 @@
       ]
     },
     {
-      "concept": "专精特新",
+      "concept": "PCB",
       "active_days": 1,
       "latest_count": 8,
       "trend": "今日活跃",
       "highlight": false,
       "history": [
         {
-          "date": "2026-06-16",
+          "date": "2026-06-17",
           "count": 8,
-          "leader": "金戈新材",
+          "leader": "科翔股份",
           "stocks": [
-            "金戈新材",
-            "鸿仕达",
-            "德恩精工",
-            "长进光子",
-            "南芯科技",
-            "雅创电子",
-            "本川智能",
-            "逸豪新材"
+            "科翔股份",
+            "一博科技",
+            "中京电子",
+            "宏昌电子",
+            "华正新材",
+            "鹏鼎控股",
+            "深南电路",
+            "超声电子"
           ]
         }
       ]
@@ -5731,6 +5363,88 @@
           ]
         }
       ]
+    },
+    {
+      "concept": "消费电子",
+      "active_days": 1,
+      "latest_count": 6,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-17",
+          "count": 6,
+          "leader": "昀冢科技",
+          "stocks": [
+            "昀冢科技",
+            "光弘科技",
+            "美迪凯",
+            "长信科技",
+            "智微智能",
+            "联域股份"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "纺织检测",
+      "active_days": 1,
+      "latest_count": 4,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-17",
+          "count": 4,
+          "leader": "中纺标",
+          "stocks": [
+            "中纺标",
+            "天纺标",
+            "欣龙控股",
+            "嘉欣丝绸"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "active_days": 1,
+      "latest_count": 4,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-17",
+          "count": 4,
+          "leader": "普冉股份",
+          "stocks": [
+            "普冉股份",
+            "香农芯创",
+            "飞天诚信",
+            "兆易创新"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "能源/油气",
+      "active_days": 1,
+      "latest_count": 4,
+      "trend": "今日活跃",
+      "highlight": false,
+      "history": [
+        {
+          "date": "2026-06-17",
+          "count": 4,
+          "leader": "滨海能源",
+          "stocks": [
+            "滨海能源",
+            "贝肯能源",
+            "中远海能",
+            "冰轮环境"
+          ]
+        }
+      ]
     }
   ],
   "hot_stock_tracking": [
@@ -5740,14 +5454,14 @@
       "concept": "其他涨停",
       "price": 41.97,
       "change_pct": 20.951,
-      "divergence_day": "2026-06-18",
+      "divergence_day": "2026-06-19",
       "features": [
         "板块龙头",
         "20cm涨停",
         "放量分歧",
-        "新增概念"
+        "板块连续"
       ],
-      "consensus_day": "2026-06-18 + 首板",
+      "consensus_day": "2026-06-18 + 延续",
       "tomorrow_view": "分歧放量，重点看开盘承接和回封力度",
       "highlight": true
     },
@@ -5757,14 +5471,14 @@
       "concept": "其他涨停",
       "price": 18.7,
       "change_pct": 20.026,
-      "divergence_day": "2026-06-18",
+      "divergence_day": "2026-06-19",
       "features": [
         "前排领涨",
         "20cm涨停",
         "放量分歧",
-        "新增概念"
+        "板块连续"
       ],
-      "consensus_day": "2026-06-18 + 首板",
+      "consensus_day": "2026-06-18 + 延续",
       "tomorrow_view": "分歧放量，重点看开盘承接和回封力度",
       "highlight": true
     },
@@ -5774,14 +5488,14 @@
       "concept": "其他涨停",
       "price": 27.76,
       "change_pct": 20.017,
-      "divergence_day": "2026-06-18",
+      "divergence_day": "2026-06-19",
       "features": [
         "前排领涨",
         "20cm涨停",
         "放量分歧",
-        "新增概念"
+        "板块连续"
       ],
-      "consensus_day": "2026-06-18 + 首板",
+      "consensus_day": "2026-06-18 + 延续",
       "tomorrow_view": "分歧放量，重点看开盘承接和回封力度",
       "highlight": true
     },
@@ -5791,14 +5505,13 @@
       "concept": "其他涨停",
       "price": 67.9,
       "change_pct": 20.007,
-      "divergence_day": "2026-06-18",
+      "divergence_day": "2026-06-19",
       "features": [
         "20cm涨停",
-        "新增概念",
         "板块连续"
       ],
-      "consensus_day": "2026-06-18 + 首板",
-      "tomorrow_view": "新增概念发酵，观察同概念是否继续扩散",
+      "consensus_day": "2026-06-18 + 延续",
+      "tomorrow_view": "先看是否被市场重新归入明确主线",
       "highlight": true
     },
     {
@@ -5807,14 +5520,14 @@
       "concept": "新材料/化工",
       "price": 73.0,
       "change_pct": 21.667,
-      "divergence_day": "2026-06-18",
+      "divergence_day": "2026-06-19",
       "features": [
         "板块龙头",
         "20cm涨停",
         "放量分歧",
-        "新增概念"
+        "板块连续"
       ],
-      "consensus_day": "2026-06-16 + 延续",
+      "consensus_day": "2026-06-18 + 延续",
       "tomorrow_view": "分歧放量，重点看开盘承接和回封力度",
       "highlight": true
     },
@@ -5824,13 +5537,13 @@
       "concept": "新材料/化工",
       "price": 59.75,
       "change_pct": 20.004,
-      "divergence_day": "2026-06-18",
+      "divergence_day": "2026-06-19",
       "features": [
         "前排领涨",
         "20cm涨停",
         "板块连续"
       ],
-      "consensus_day": "2026-06-17 + 延续",
+      "consensus_day": "2026-06-18 + 延续",
       "tomorrow_view": "看所属板块涨停家数是否增加，个股是否继续前排",
       "highlight": true
     },
@@ -5846,7 +5559,7 @@
         "20cm涨停",
         "板块连续"
       ],
-      "consensus_day": "2026-06-17 + 延续",
+      "consensus_day": "2026-06-18 + 延续",
       "tomorrow_view": "板块龙头，弱转强或继续封板则主线延续",
       "highlight": true
     },
@@ -5862,7 +5575,7 @@
         "涨停确认",
         "板块连续"
       ],
-      "consensus_day": "2026-06-17 + 延续",
+      "consensus_day": "2026-06-18 + 延续",
       "tomorrow_view": "看所属板块涨停家数是否增加，个股是否继续前排",
       "highlight": true
     },
@@ -5872,13 +5585,13 @@
       "concept": "半导体设备/先进封装",
       "price": 43.1,
       "change_pct": 10.005,
-      "divergence_day": "2026-06-18",
+      "divergence_day": "2026-06-19",
       "features": [
         "前排领涨",
         "涨停确认",
         "板块连续"
       ],
-      "consensus_day": "2026-06-17 + 延续",
+      "consensus_day": "2026-06-18 + 延续",
       "tomorrow_view": "看所属板块涨停家数是否增加，个股是否继续前排",
       "highlight": true
     }
@@ -5942,7 +5655,7 @@
       "pb": 3.734,
       "pe": -98.421,
       "industry": "",
-      "ticktime": "15:36:00",
+      "ticktime": "16:30:00",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -5962,7 +5675,7 @@
       "pb": 4.998,
       "pe": 77.175,
       "industry": "",
-      "ticktime": "15:35:15",
+      "ticktime": "16:29:15",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -6042,7 +5755,7 @@
       "pb": 4.345,
       "pe": 34.332,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -6122,7 +5835,7 @@
       "pb": 7.895,
       "pe": 73.607,
       "industry": "",
-      "ticktime": "15:35:00",
+      "ticktime": "16:29:00",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -6142,7 +5855,7 @@
       "pb": 8.26,
       "pe": 142.759,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -6182,7 +5895,7 @@
       "pb": 3.771,
       "pe": 47.909,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -6222,7 +5935,7 @@
       "pb": 7.825,
       "pe": 303.476,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -6242,7 +5955,7 @@
       "pb": 2.472,
       "pe": 66.924,
       "industry": "",
-      "ticktime": "15:35:15",
+      "ticktime": "16:29:15",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
