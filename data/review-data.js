@@ -1,21 +1,20 @@
 window.__REVIEW_DATA__ = {
   "updated_at": "2026-08-25 11:42:13",
   "data_updated_at": "2026-08-25 11:42:13",
-  "last_checked_at": "2026-08-25 11:42:13",
+  "last_checked_at": "2026-08-26 11:43:54",
   "trade_date": "2026-08-25",
   "status": "ok",
   "source": "Tencent index quote + Sina A-share rank fallback; Eastmoney when available",
   "source_status": {
-    "mode": "fast_fallback",
-    "indices": "Tencent qt.gtimg.cn",
-    "stocks": "Sina A-share rank top 180 by changepercent",
-    "concepts": "Local concept rules from涨停股名称匹配",
+    "mode": "reused_existing_after_fetch_failed",
+    "indices": "cached from previous successful refresh",
+    "stocks": "cached from previous successful refresh",
+    "concepts": "Local concept rules recomputed from cached涨停股",
     "full_market_breadth": "unavailable_in_fast_fallback",
     "fund_flow": "unavailable_in_fast_fallback",
-    "detail_fundamentals": "partial_from_sina_rank",
-    "freshness": "fresh_fetch",
-    "notes": [],
-    "updated_at": "2026-08-25 11:42:13"
+    "detail_fundamentals": "partial_from_cached_sina_rank",
+    "freshness": "cached_data_recomputed",
+    "updated_at": "2026-08-26 11:43:54"
   },
   "indices": [
     {
@@ -103,9 +102,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "300097",
@@ -130,9 +127,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "688169",
@@ -157,9 +152,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "300642",
@@ -184,9 +177,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "300922",
@@ -211,9 +202,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600103",
@@ -238,9 +227,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000560",
@@ -315,9 +302,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002445",
@@ -367,9 +352,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603912",
@@ -394,9 +377,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002713",
@@ -421,9 +402,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002418",
@@ -448,9 +427,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600127",
@@ -550,9 +527,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000695",
@@ -577,9 +552,7 @@ window.__REVIEW_DATA__ = {
             "能源/油气"
           ],
           "limit_reason": "能源运输、油气设备和传统能源方向异动",
-          "new_concepts": [
-            "能源/油气"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600371",
@@ -629,9 +602,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600984",
@@ -656,9 +627,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "003040",
@@ -758,9 +727,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600605",
@@ -785,9 +752,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002478",
@@ -812,9 +777,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002963",
@@ -839,9 +802,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002451",
@@ -866,9 +827,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600838",
@@ -893,9 +852,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "605303",
@@ -920,9 +877,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002041",
@@ -972,9 +927,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600714",
@@ -999,9 +952,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "003021",
@@ -1026,9 +977,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002821",
@@ -1053,9 +1002,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002947",
@@ -1080,9 +1027,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002081",
@@ -1107,9 +1052,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "003018",
@@ -1159,9 +1102,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002686",
@@ -1211,9 +1152,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000796",
@@ -1238,9 +1177,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002880",
@@ -1290,9 +1227,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603217",
@@ -1317,9 +1252,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000070",
@@ -1344,9 +1277,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603095",
@@ -1396,9 +1327,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002412",
@@ -1473,9 +1402,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603318",
@@ -1525,9 +1452,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603360",
@@ -1552,9 +1477,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603758",
@@ -1604,9 +1527,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600829",
@@ -1631,9 +1552,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603079",
@@ -1708,9 +1627,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600698",
@@ -1735,9 +1652,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000566",
@@ -1762,9 +1677,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600936",
@@ -1789,9 +1702,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000428",
@@ -1816,9 +1727,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         }
       ]
     }
@@ -1847,9 +1756,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "300097",
@@ -1874,9 +1781,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "688169",
@@ -1901,9 +1806,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "300642",
@@ -1928,9 +1831,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "300922",
@@ -1955,9 +1856,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600103",
@@ -1982,9 +1881,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000560",
@@ -2059,9 +1956,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002445",
@@ -2111,9 +2006,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603912",
@@ -2138,9 +2031,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002713",
@@ -2165,9 +2056,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002418",
@@ -2192,9 +2081,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600127",
@@ -2294,9 +2181,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000695",
@@ -2321,9 +2206,7 @@ window.__REVIEW_DATA__ = {
         "能源/油气"
       ],
       "limit_reason": "能源运输、油气设备和传统能源方向异动",
-      "new_concepts": [
-        "能源/油气"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600371",
@@ -2373,9 +2256,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600984",
@@ -2400,9 +2281,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "003040",
@@ -2502,9 +2381,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600605",
@@ -2529,9 +2406,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002478",
@@ -2556,9 +2431,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002963",
@@ -2583,9 +2456,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002451",
@@ -2610,9 +2481,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600838",
@@ -2637,9 +2506,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "605303",
@@ -2664,9 +2531,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002041",
@@ -2716,9 +2581,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600714",
@@ -2743,9 +2606,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "003021",
@@ -2770,9 +2631,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002821",
@@ -2797,9 +2656,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002947",
@@ -2824,9 +2681,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002081",
@@ -2851,9 +2706,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "003018",
@@ -2903,9 +2756,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002686",
@@ -2955,9 +2806,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000796",
@@ -2982,9 +2831,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002880",
@@ -3034,9 +2881,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603217",
@@ -3061,9 +2906,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000070",
@@ -3088,9 +2931,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603095",
@@ -3140,9 +2981,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002412",
@@ -3217,9 +3056,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603318",
@@ -3269,9 +3106,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603360",
@@ -3296,9 +3131,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603758",
@@ -3348,9 +3181,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600829",
@@ -3375,9 +3206,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603079",
@@ -3452,9 +3281,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600698",
@@ -3479,9 +3306,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000566",
@@ -3506,9 +3331,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600936",
@@ -3533,9 +3356,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000428",
@@ -3560,9 +3381,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     }
   ],
   "hot_board_tracking": [
@@ -3573,69 +3392,6 @@ window.__REVIEW_DATA__ = {
       "trend": "连续活跃",
       "highlight": true,
       "history": [
-        {
-          "date": "2026-08-21",
-          "count": 56,
-          "leader": "N信胜",
-          "stocks": [
-            "N信胜",
-            "博汇股份",
-            "肯特股份",
-            "康希诺",
-            "近岸蛋白",
-            "北陆药业",
-            "日科化学",
-            "键凯科技",
-            "深科达",
-            "勤上股份",
-            "深中华A",
-            "福华尚纬",
-            "新华百货",
-            "天洋新材",
-            "汉森制药",
-            "诺德股份",
-            "圣达生物",
-            "精达股份",
-            "水发燃气",
-            "德尔未来",
-            "达 意 隆",
-            "湖南白银",
-            "贝瑞基因",
-            "宿迁联盛",
-            "科森科技",
-            "国光电器",
-            "越剑智能",
-            "星网锐捷",
-            "通鼎互联",
-            "杭齿前进",
-            "哈森股份",
-            "宇环数控",
-            "瑞斯康达",
-            "秦安股份",
-            "和远气体",
-            "盛达资源",
-            "江钨装备",
-            "可川科技",
-            "旭光电子",
-            "飞龙股份",
-            "中瓷电子",
-            "融捷股份",
-            "金富科技",
-            "沃特股份",
-            "高新发展",
-            "福达合金",
-            "东信和平",
-            "士兰微",
-            "豪美新材",
-            "共达电声",
-            "亿利达",
-            "楚天龙",
-            "国星光电",
-            "双鹭药业",
-            "中 关 村",
-            "白银有色"
-          ]
-        },
         {
           "date": "2026-08-24",
           "count": 47,
@@ -3762,6 +3518,79 @@ window.__REVIEW_DATA__ = {
             "北投科技",
             "华天酒店"
           ]
+        },
+        {
+          "date": "2026-08-26",
+          "count": 66,
+          "leader": "N高凯",
+          "stocks": [
+            "N高凯",
+            "智云股份",
+            "石头科技",
+            "透景生命",
+            "天秦装备",
+            "青山纸业",
+            "我爱我家",
+            "海鸥住工",
+            "冀衡医药",
+            "中南文化",
+            "青岛金王",
+            "佳力图",
+            "东易日盛",
+            "康盛股份",
+            "金健米业",
+            "金能科技",
+            "镇海股份",
+            "珠海中富",
+            "滨海能源",
+            "万向德农",
+            "华阳新材",
+            "建设机械",
+            "楚天龙",
+            "上海能源",
+            "红四方",
+            "六国化工",
+            "汇通能源",
+            "常宝股份",
+            "豪尔赛",
+            "摩恩电气",
+            "上海九百",
+            "园林股份",
+            "登海种业",
+            "英维克",
+            "金瑞矿业",
+            "兆威机电",
+            "凯莱英",
+            "恒铭达",
+            "金 螳 螂",
+            "金富科技",
+            "甘咨询",
+            "亿利达",
+            "大胜达",
+            "凯撒旅业",
+            "卫光生物",
+            "捷荣技术",
+            "元利科技",
+            "特发信息",
+            "越剑智能",
+            "华森制药",
+            "汉森制药",
+            "新华百货",
+            "华阳国际",
+            "水发燃气",
+            "黄河旋风",
+            "百傲化学",
+            "秦安股份",
+            "浙江世宝",
+            "人民同泰",
+            "圣达生物",
+            "深中华A",
+            "升达林业",
+            "湖南天雁",
+            "海南海药",
+            "北投科技",
+            "华天酒店"
+          ]
         }
       ]
     }
@@ -3778,9 +3607,9 @@ window.__REVIEW_DATA__ = {
         "板块龙头",
         "20cm涨停",
         "放量分歧",
-        "新增概念"
+        "板块连续"
       ],
-      "consensus_day": "2026-08-25 + 首板",
+      "consensus_day": "2026-08-25 + 延续",
       "tomorrow_view": "分歧放量，重点看开盘承接和回封力度",
       "highlight": true
     },
@@ -3795,9 +3624,9 @@ window.__REVIEW_DATA__ = {
         "前排领涨",
         "20cm涨停",
         "放量分歧",
-        "新增概念"
+        "板块连续"
       ],
-      "consensus_day": "2026-08-25 + 首板",
+      "consensus_day": "2026-08-25 + 延续",
       "tomorrow_view": "分歧放量，重点看开盘承接和回封力度",
       "highlight": true
     },
@@ -3807,15 +3636,14 @@ window.__REVIEW_DATA__ = {
       "concept": "其他涨停",
       "price": 135.0,
       "change_pct": 20.0,
-      "divergence_day": "2026-08-25",
+      "divergence_day": "延续观察",
       "features": [
         "前排领涨",
         "20cm涨停",
-        "新增概念",
         "板块连续"
       ],
-      "consensus_day": "2026-08-25 + 首板",
-      "tomorrow_view": "新增概念发酵，观察同概念是否继续扩散",
+      "consensus_day": "2026-08-25 + 延续",
+      "tomorrow_view": "先看是否被市场重新归入明确主线",
       "highlight": true
     },
     {
@@ -3824,14 +3652,13 @@ window.__REVIEW_DATA__ = {
       "concept": "其他涨停",
       "price": 16.2,
       "change_pct": 20.0,
-      "divergence_day": "2026-08-25",
+      "divergence_day": "延续观察",
       "features": [
         "20cm涨停",
-        "新增概念",
         "板块连续"
       ],
-      "consensus_day": "2026-08-25 + 首板",
-      "tomorrow_view": "新增概念发酵，观察同概念是否继续扩散",
+      "consensus_day": "2026-08-25 + 延续",
+      "tomorrow_view": "先看是否被市场重新归入明确主线",
       "highlight": true
     }
   ],
