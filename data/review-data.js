@@ -1,8 +1,8 @@
 window.__REVIEW_DATA__ = {
-  "updated_at": "2026-09-30 16:48:51",
-  "data_updated_at": "2026-09-30 16:48:51",
-  "last_checked_at": "2026-09-30 16:48:51",
-  "trade_date": "2026-09-30",
+  "updated_at": "2026-10-01 17:21:37",
+  "data_updated_at": "2026-10-01 17:21:37",
+  "last_checked_at": "2026-10-01 17:21:37",
+  "trade_date": "2026-10-01",
   "status": "ok",
   "source": "Tencent index quote + Sina A-share rank fallback; Eastmoney when available",
   "source_status": {
@@ -15,7 +15,7 @@ window.__REVIEW_DATA__ = {
     "detail_fundamentals": "partial_from_sina_rank",
     "freshness": "fresh_fetch",
     "notes": [],
-    "updated_at": "2026-09-30 16:48:51"
+    "updated_at": "2026-10-01 17:21:37"
   },
   "indices": [
     {
@@ -97,15 +97,13 @@ window.__REVIEW_DATA__ = {
           "pb": 8.038,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "301190",
@@ -124,7 +122,7 @@ window.__REVIEW_DATA__ = {
           "pb": 3.861,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
@@ -155,9 +153,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "688806",
@@ -182,9 +178,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "300893",
@@ -198,20 +192,18 @@ window.__REVIEW_DATA__ = {
           "low": 12.76,
           "volume": 22522648.0,
           "amount_yuan": 323471626.0,
-          "turnover_pct": 8.94,
+          "turnover_pct": 8.95,
           "pe": 18.882,
           "pb": 3.374,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "688265",
@@ -236,9 +228,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002226",
@@ -257,15 +247,13 @@ window.__REVIEW_DATA__ = {
           "pb": 1.475,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000692",
@@ -284,15 +272,13 @@ window.__REVIEW_DATA__ = {
           "pb": 62.791,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:30",
+          "ticktime": "16:29:30",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600059",
@@ -317,9 +303,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "001318",
@@ -338,15 +322,13 @@ window.__REVIEW_DATA__ = {
           "pb": 2.559,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:15",
+          "ticktime": "16:29:15",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002164",
@@ -365,7 +347,7 @@ window.__REVIEW_DATA__ = {
           "pb": 4.58,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:30",
+          "ticktime": "16:29:30",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
@@ -390,15 +372,13 @@ window.__REVIEW_DATA__ = {
           "pb": 4.889,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002242",
@@ -417,7 +397,7 @@ window.__REVIEW_DATA__ = {
           "pb": 2.946,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:30",
+          "ticktime": "16:29:30",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
@@ -448,9 +428,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002866",
@@ -469,7 +447,7 @@ window.__REVIEW_DATA__ = {
           "pb": 2.333,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
@@ -500,9 +478,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603185",
@@ -527,9 +503,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002058",
@@ -548,7 +522,7 @@ window.__REVIEW_DATA__ = {
           "pb": 40.0,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:36:00",
+          "ticktime": "16:29:00",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
@@ -573,7 +547,7 @@ window.__REVIEW_DATA__ = {
           "pb": 2.702,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:30",
+          "ticktime": "16:29:30",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
@@ -629,9 +603,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603928",
@@ -656,9 +628,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600663",
@@ -683,9 +653,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000504",
@@ -704,15 +672,13 @@ window.__REVIEW_DATA__ = {
           "pb": 15.084,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:30",
+          "ticktime": "16:29:30",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603200",
@@ -762,9 +728,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603538",
@@ -789,9 +753,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "605287",
@@ -816,9 +778,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603590",
@@ -843,9 +803,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002962",
@@ -864,7 +822,7 @@ window.__REVIEW_DATA__ = {
           "pb": 2.685,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:30",
+          "ticktime": "16:29:30",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
@@ -889,15 +847,13 @@ window.__REVIEW_DATA__ = {
           "pb": 2.426,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "605288",
@@ -922,9 +878,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "605577",
@@ -949,9 +903,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002316",
@@ -970,15 +922,13 @@ window.__REVIEW_DATA__ = {
           "pb": 25.165,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002454",
@@ -997,15 +947,13 @@ window.__REVIEW_DATA__ = {
           "pb": 1.231,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603127",
@@ -1030,9 +978,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603906",
@@ -1057,9 +1003,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "001266",
@@ -1078,15 +1022,13 @@ window.__REVIEW_DATA__ = {
           "pb": 4.299,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600081",
@@ -1111,9 +1053,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603948",
@@ -1138,9 +1078,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600825",
@@ -1190,9 +1128,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002755",
@@ -1211,15 +1147,13 @@ window.__REVIEW_DATA__ = {
           "pb": 3.9,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:36:00",
+          "ticktime": "16:29:00",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000678",
@@ -1238,7 +1172,7 @@ window.__REVIEW_DATA__ = {
           "pb": 7.62,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
@@ -1263,15 +1197,13 @@ window.__REVIEW_DATA__ = {
           "pb": 1.875,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:36:00",
+          "ticktime": "16:29:00",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600356",
@@ -1296,9 +1228,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600592",
@@ -1323,9 +1253,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "603188",
@@ -1375,9 +1303,7 @@ window.__REVIEW_DATA__ = {
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "000011",
@@ -1396,7 +1322,7 @@ window.__REVIEW_DATA__ = {
           "pb": 2.202,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:45",
+          "ticktime": "16:29:45",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
@@ -1446,15 +1372,13 @@ window.__REVIEW_DATA__ = {
           "pb": 5.675,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:30",
+          "ticktime": "16:29:30",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "600241",
@@ -1498,15 +1422,13 @@ window.__REVIEW_DATA__ = {
           "pb": 3.818,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:35:15",
+          "ticktime": "16:29:15",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         },
         {
           "code": "002419",
@@ -1525,15 +1447,13 @@ window.__REVIEW_DATA__ = {
           "pb": 1.454,
           "market_cap_wan": null,
           "float_market_cap_wan": null,
-          "ticktime": "15:36:00",
+          "ticktime": "16:29:00",
           "source": "Sina Market_Center.getHQNodeData",
           "concepts": [
             "其他涨停"
           ],
           "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-          "new_concepts": [
-            "其他涨停"
-          ]
+          "new_concepts": []
         }
       ]
     }
@@ -1556,15 +1476,13 @@ window.__REVIEW_DATA__ = {
       "pb": 8.038,
       "pe": 35.375,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "301190",
@@ -1583,7 +1501,7 @@ window.__REVIEW_DATA__ = {
       "pb": 3.861,
       "pe": 102.775,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
@@ -1614,9 +1532,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "688806",
@@ -1641,9 +1557,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "300893",
@@ -1657,20 +1571,18 @@ window.__REVIEW_DATA__ = {
       "low": 12.76,
       "volume": 22522648.0,
       "amount_yuan": 323471626.0,
-      "turnover_pct": 8.94,
+      "turnover_pct": 8.95,
       "main_net_yuan": 0,
       "pb": 3.374,
       "pe": 18.882,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "688265",
@@ -1695,9 +1607,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002226",
@@ -1716,15 +1626,13 @@ window.__REVIEW_DATA__ = {
       "pb": 1.475,
       "pe": 18.671,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000692",
@@ -1743,15 +1651,13 @@ window.__REVIEW_DATA__ = {
       "pb": 62.791,
       "pe": -45.717,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600059",
@@ -1776,9 +1682,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "001318",
@@ -1797,15 +1701,13 @@ window.__REVIEW_DATA__ = {
       "pb": 2.559,
       "pe": 35.281,
       "industry": "",
-      "ticktime": "15:35:15",
+      "ticktime": "16:29:15",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002164",
@@ -1824,7 +1726,7 @@ window.__REVIEW_DATA__ = {
       "pb": 4.58,
       "pe": 35.838,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
@@ -1849,15 +1751,13 @@ window.__REVIEW_DATA__ = {
       "pb": 4.889,
       "pe": -206.818,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002242",
@@ -1876,7 +1776,7 @@ window.__REVIEW_DATA__ = {
       "pb": 2.946,
       "pe": 78.125,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
@@ -1907,9 +1807,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002866",
@@ -1928,7 +1826,7 @@ window.__REVIEW_DATA__ = {
       "pb": 2.333,
       "pe": 56.333,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
@@ -1959,9 +1857,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603185",
@@ -1986,9 +1882,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002058",
@@ -2007,7 +1901,7 @@ window.__REVIEW_DATA__ = {
       "pb": 40.0,
       "pe": 14.326,
       "industry": "",
-      "ticktime": "15:36:00",
+      "ticktime": "16:29:00",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
@@ -2032,7 +1926,7 @@ window.__REVIEW_DATA__ = {
       "pb": 2.702,
       "pe": -19.522,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
@@ -2088,9 +1982,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603928",
@@ -2115,9 +2007,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600663",
@@ -2142,9 +2032,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000504",
@@ -2163,15 +2051,13 @@ window.__REVIEW_DATA__ = {
       "pb": 15.084,
       "pe": 138.0,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603200",
@@ -2221,9 +2107,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603538",
@@ -2248,9 +2132,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "605287",
@@ -2275,9 +2157,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603590",
@@ -2302,9 +2182,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002962",
@@ -2323,7 +2201,7 @@ window.__REVIEW_DATA__ = {
       "pb": 2.685,
       "pe": 124.385,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
@@ -2348,15 +2226,13 @@ window.__REVIEW_DATA__ = {
       "pb": 2.426,
       "pe": 98.177,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "605288",
@@ -2381,9 +2257,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "605577",
@@ -2408,9 +2282,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002316",
@@ -2429,15 +2301,13 @@ window.__REVIEW_DATA__ = {
       "pb": 25.165,
       "pe": 315.287,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002454",
@@ -2456,15 +2326,13 @@ window.__REVIEW_DATA__ = {
       "pb": 1.231,
       "pe": 14.385,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603127",
@@ -2489,9 +2357,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603906",
@@ -2516,9 +2382,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "001266",
@@ -2537,15 +2401,13 @@ window.__REVIEW_DATA__ = {
       "pb": 4.299,
       "pe": 266.4,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600081",
@@ -2570,9 +2432,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603948",
@@ -2597,9 +2457,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600825",
@@ -2649,9 +2507,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002755",
@@ -2670,15 +2526,13 @@ window.__REVIEW_DATA__ = {
       "pb": 3.9,
       "pe": 54.2,
       "industry": "",
-      "ticktime": "15:36:00",
+      "ticktime": "16:29:00",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000678",
@@ -2697,7 +2551,7 @@ window.__REVIEW_DATA__ = {
       "pb": 7.62,
       "pe": -117.182,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
@@ -2722,15 +2576,13 @@ window.__REVIEW_DATA__ = {
       "pb": 1.875,
       "pe": 18.62,
       "industry": "",
-      "ticktime": "15:36:00",
+      "ticktime": "16:29:00",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600356",
@@ -2755,9 +2607,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600592",
@@ -2782,9 +2632,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "603188",
@@ -2834,9 +2682,7 @@ window.__REVIEW_DATA__ = {
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "000011",
@@ -2855,7 +2701,7 @@ window.__REVIEW_DATA__ = {
       "pb": 2.202,
       "pe": 215.114,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
@@ -2905,15 +2751,13 @@ window.__REVIEW_DATA__ = {
       "pb": 5.675,
       "pe": 64.0,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "600241",
@@ -2957,15 +2801,13 @@ window.__REVIEW_DATA__ = {
       "pb": 3.818,
       "pe": 103.833,
       "industry": "",
-      "ticktime": "15:35:15",
+      "ticktime": "16:29:15",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     },
     {
       "code": "002419",
@@ -2984,15 +2826,13 @@ window.__REVIEW_DATA__ = {
       "pb": 1.454,
       "pe": 71.489,
       "industry": "",
-      "ticktime": "15:36:00",
+      "ticktime": "16:29:00",
       "source": "Sina Market_Center.getHQNodeData",
       "concepts": [
         "其他涨停"
       ],
       "limit_reason": "单股事件、低位补涨或暂未归入主线概念",
-      "new_concepts": [
-        "其他涨停"
-      ]
+      "new_concepts": []
     }
   ],
   "hot_board_tracking": [
@@ -3003,46 +2843,6 @@ window.__REVIEW_DATA__ = {
       "trend": "连续活跃",
       "highlight": true,
       "history": [
-        {
-          "date": "2026-09-28",
-          "count": 33,
-          "leader": "善水科技",
-          "stocks": [
-            "善水科技",
-            "永信至诚",
-            "浙江新能",
-            "国新健康",
-            "新华传媒",
-            "博纳影业",
-            "醋化股份",
-            "东瑞股份",
-            "襄阳轴承",
-            "中新赛克",
-            "巨力索具",
-            "道道全",
-            "九阳股份",
-            "丽珠集团",
-            "吉鑫科技",
-            "跨境通",
-            "大业股份",
-            "津药药业",
-            "通达创智",
-            "启明信息",
-            "雪龙集团",
-            "深物业A",
-            "深华发Ａ",
-            "会稽山",
-            "金辰股份",
-            "江淮汽车",
-            "时代万恒",
-            "五方光电",
-            "宏柏新材",
-            "福建水泥",
-            "泰尔股份",
-            "新筑股份",
-            "众泰汽车"
-          ]
-        },
         {
           "date": "2026-09-29",
           "count": 57,
@@ -3168,6 +2968,68 @@ window.__REVIEW_DATA__ = {
             "荣丰控股",
             "天虹股份"
           ]
+        },
+        {
+          "date": "2026-10-01",
+          "count": 55,
+          "leader": "N力勤",
+          "stocks": [
+            "N力勤",
+            "善水科技",
+            "康希诺",
+            "泰诺麦博",
+            "松原安全",
+            "南模生物",
+            "江南化工",
+            "惠天热电",
+            "古越龙山",
+            "阳光乳业",
+            "宁波东力",
+            "新亚制程",
+            "九阳股份",
+            "蔚蓝生物",
+            "传艺科技",
+            "杭州热电",
+            "弘元绿能",
+            "紫竹高科",
+            "贝瑞基因",
+            "园林股份",
+            "海南橡胶",
+            "兴业股份",
+            "陆家嘴",
+            "南华生物",
+            "上海洗霸",
+            "国网信通",
+            "美诺华",
+            "德才股份",
+            "康辰药业",
+            "五方光电",
+            "登海种业",
+            "凯迪股份",
+            "龙版传媒",
+            "亚联发展",
+            "松芝股份",
+            "昭衍新药",
+            "龙蟠科技",
+            "宏英智能",
+            "东风科技",
+            "建业股份",
+            "新华传媒",
+            "金徽酒",
+            "奥赛康",
+            "襄阳轴承",
+            "依依股份",
+            "恒丰纸业",
+            "龙溪股份",
+            "亚邦股份",
+            "中船科技",
+            "深物业A",
+            "均瑶健康",
+            "中天服务",
+            "时代万恒",
+            "荣丰控股",
+            "天虹股份"
+          ]
         }
       ]
     },
@@ -3197,14 +3059,14 @@ window.__REVIEW_DATA__ = {
       "concept": "其他涨停",
       "price": 65.09,
       "change_pct": 206.594,
-      "divergence_day": "2026-09-30",
+      "divergence_day": "2026-10-01",
       "features": [
         "板块龙头",
         "20cm涨停",
         "放量分歧",
-        "新增概念"
+        "板块连续"
       ],
-      "consensus_day": "2026-09-30 + 首板",
+      "consensus_day": "2026-09-30 + 延续",
       "tomorrow_view": "分歧放量，重点看开盘承接和回封力度",
       "highlight": true
     },
@@ -3220,7 +3082,7 @@ window.__REVIEW_DATA__ = {
         "20cm涨停",
         "板块连续"
       ],
-      "consensus_day": "2026-09-29 + 延续",
+      "consensus_day": "2026-09-30 + 延续",
       "tomorrow_view": "先看是否被市场重新归入明确主线",
       "highlight": true
     },
@@ -3230,15 +3092,14 @@ window.__REVIEW_DATA__ = {
       "concept": "其他涨停",
       "price": 102.64,
       "change_pct": 20.005,
-      "divergence_day": "2026-09-30",
+      "divergence_day": "延续观察",
       "features": [
         "前排领涨",
         "20cm涨停",
-        "新增概念",
         "板块连续"
       ],
-      "consensus_day": "2026-09-30 + 首板",
-      "tomorrow_view": "新增概念发酵，观察同概念是否继续扩散",
+      "consensus_day": "2026-09-30 + 延续",
+      "tomorrow_view": "先看是否被市场重新归入明确主线",
       "highlight": true
     },
     {
@@ -3247,14 +3108,13 @@ window.__REVIEW_DATA__ = {
       "concept": "其他涨停",
       "price": 30.67,
       "change_pct": 19.992,
-      "divergence_day": "2026-09-30",
+      "divergence_day": "2026-10-01",
       "features": [
         "20cm涨停",
         "放量分歧",
-        "新增概念",
         "板块连续"
       ],
-      "consensus_day": "2026-09-30 + 首板",
+      "consensus_day": "2026-09-30 + 延续",
       "tomorrow_view": "分歧放量，重点看开盘承接和回封力度",
       "highlight": true
     }
@@ -3278,7 +3138,7 @@ window.__REVIEW_DATA__ = {
       "pb": 8.038,
       "pe": 35.375,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -3298,7 +3158,7 @@ window.__REVIEW_DATA__ = {
       "pb": 3.861,
       "pe": 102.775,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -3353,12 +3213,12 @@ window.__REVIEW_DATA__ = {
       "low": 12.76,
       "volume": 22522648.0,
       "amount_yuan": 323471626.0,
-      "turnover_pct": 8.94,
+      "turnover_pct": 8.95,
       "main_net_yuan": 0,
       "pb": 3.374,
       "pe": 18.882,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -3398,7 +3258,7 @@ window.__REVIEW_DATA__ = {
       "pb": 8.77,
       "pe": -299.613,
       "industry": "",
-      "ticktime": "15:35:00",
+      "ticktime": "16:29:00",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -3438,7 +3298,7 @@ window.__REVIEW_DATA__ = {
       "pb": 8.9,
       "pe": 142.653,
       "industry": "",
-      "ticktime": "15:35:30",
+      "ticktime": "16:29:30",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -3478,7 +3338,7 @@ window.__REVIEW_DATA__ = {
       "pb": 1.656,
       "pe": -78.077,
       "industry": "",
-      "ticktime": "15:35:15",
+      "ticktime": "16:29:15",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -3538,7 +3398,7 @@ window.__REVIEW_DATA__ = {
       "pb": 3.015,
       "pe": 100.745,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -3558,7 +3418,7 @@ window.__REVIEW_DATA__ = {
       "pb": 4.772,
       "pe": 66.421,
       "industry": "",
-      "ticktime": "15:35:45",
+      "ticktime": "16:29:45",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -3578,7 +3438,7 @@ window.__REVIEW_DATA__ = {
       "pb": 1.761,
       "pe": 32.519,
       "industry": "",
-      "ticktime": "15:35:00",
+      "ticktime": "16:29:00",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
@@ -3638,7 +3498,7 @@ window.__REVIEW_DATA__ = {
       "pb": 3.696,
       "pe": 130.907,
       "industry": "",
-      "ticktime": "15:35:00",
+      "ticktime": "16:29:00",
       "source": "Sina Market_Center.getHQNodeData"
     },
     {
