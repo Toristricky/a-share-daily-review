@@ -1,735 +1,5 @@
 [
   {
-    "trade_date": "2026-09-30",
-    "updated_at": "2026-09-30 16:48:51",
-    "concept_boards": [
-      {
-        "concept": "其他涨停",
-        "limit_up_count": 55,
-        "leader": "N力勤",
-        "stocks": [
-          "N力勤",
-          "善水科技",
-          "康希诺",
-          "泰诺麦博",
-          "松原安全",
-          "南模生物",
-          "江南化工",
-          "惠天热电",
-          "古越龙山",
-          "阳光乳业",
-          "宁波东力",
-          "新亚制程",
-          "九阳股份",
-          "蔚蓝生物",
-          "传艺科技",
-          "杭州热电",
-          "弘元绿能",
-          "紫竹高科",
-          "贝瑞基因",
-          "园林股份",
-          "海南橡胶",
-          "兴业股份",
-          "陆家嘴",
-          "南华生物",
-          "上海洗霸",
-          "国网信通",
-          "美诺华",
-          "德才股份",
-          "康辰药业",
-          "五方光电",
-          "登海种业",
-          "凯迪股份",
-          "龙版传媒",
-          "亚联发展",
-          "松芝股份",
-          "昭衍新药",
-          "龙蟠科技",
-          "宏英智能",
-          "东风科技",
-          "建业股份",
-          "新华传媒",
-          "金徽酒",
-          "奥赛康",
-          "襄阳轴承",
-          "依依股份",
-          "恒丰纸业",
-          "龙溪股份",
-          "亚邦股份",
-          "中船科技",
-          "深物业A",
-          "均瑶健康",
-          "中天服务",
-          "时代万恒",
-          "荣丰控股",
-          "天虹股份"
-        ]
-      }
-    ],
-    "limit_up_stocks": [
-      {
-        "code": "001246",
-        "name": "N力勤",
-        "price": 65.09,
-        "change_pct": 206.594,
-        "amount_yuan": 8345390509.0,
-        "turnover_pct": 74.93,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "301190",
-        "name": "善水科技",
-        "price": 35.93,
-        "change_pct": 20.007,
-        "amount_yuan": 510373314.0,
-        "turnover_pct": 7.95,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "688185",
-        "name": "康希诺",
-        "price": 102.64,
-        "change_pct": 20.005,
-        "amount_yuan": 1065144349.0,
-        "turnover_pct": 9.32,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "688806",
-        "name": "泰诺麦博",
-        "price": 30.67,
-        "change_pct": 19.992,
-        "amount_yuan": 350550251.0,
-        "turnover_pct": 23.59,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "300893",
-        "name": "松原安全",
-        "price": 15.13,
-        "change_pct": 19.984,
-        "amount_yuan": 323471626.0,
-        "turnover_pct": 8.94,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "688265",
-        "name": "南模生物",
-        "price": 64.98,
-        "change_pct": 19.867,
-        "amount_yuan": 412269918.0,
-        "turnover_pct": 8.61,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002226",
-        "name": "江南化工",
-        "price": 5.34,
-        "change_pct": 10.103,
-        "amount_yuan": 411668718.0,
-        "turnover_pct": 2.96,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "000692",
-        "name": "惠天热电",
-        "price": 4.59,
-        "change_pct": 10.072,
-        "amount_yuan": 170711391.0,
-        "turnover_pct": 7.08,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "600059",
-        "name": "古越龙山",
-        "price": 12.27,
-        "change_pct": 10.045,
-        "amount_yuan": 1093331572.0,
-        "turnover_pct": 9.87,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "001318",
-        "name": "阳光乳业",
-        "price": 13.04,
-        "change_pct": 10.042,
-        "amount_yuan": 125868065.0,
-        "turnover_pct": 3.53,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002164",
-        "name": "宁波东力",
-        "price": 13.26,
-        "change_pct": 10.041,
-        "amount_yuan": 648830907.0,
-        "turnover_pct": 10.41,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002388",
-        "name": "新亚制程",
-        "price": 9.1,
-        "change_pct": 10.036,
-        "amount_yuan": 320868345.0,
-        "turnover_pct": 7.05,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002242",
-        "name": "九阳股份",
-        "price": 12.5,
-        "change_pct": 10.035,
-        "amount_yuan": 436662838.0,
-        "turnover_pct": 4.59,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "603739",
-        "name": "蔚蓝生物",
-        "price": 14.04,
-        "change_pct": 10.031,
-        "amount_yuan": 127913740.0,
-        "turnover_pct": 3.64,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002866",
-        "name": "传艺科技",
-        "price": 16.9,
-        "change_pct": 10.026,
-        "amount_yuan": 577077481.0,
-        "turnover_pct": 18.65,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "605011",
-        "name": "杭州热电",
-        "price": 19.21,
-        "change_pct": 10.023,
-        "amount_yuan": 231188954.0,
-        "turnover_pct": 3.06,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "603185",
-        "name": "弘元绿能",
-        "price": 15.15,
-        "change_pct": 10.022,
-        "amount_yuan": 245142444.0,
-        "turnover_pct": 2.48,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002058",
-        "name": "紫竹高科",
-        "price": 20.2,
-        "change_pct": 10.022,
-        "amount_yuan": 51136320.0,
-        "turnover_pct": 1.77,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "000710",
-        "name": "贝瑞基因",
-        "price": 10.87,
-        "change_pct": 10.02,
-        "amount_yuan": 268548893.0,
-        "turnover_pct": 7.52,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "605303",
-        "name": "园林股份",
-        "price": 28.66,
-        "change_pct": 10.019,
-        "amount_yuan": 4940984.0,
-        "turnover_pct": 0.11,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "601118",
-        "name": "海南橡胶",
-        "price": 6.37,
-        "change_pct": 10.017,
-        "amount_yuan": 401066378.0,
-        "turnover_pct": 1.47,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "603928",
-        "name": "兴业股份",
-        "price": 13.07,
-        "change_pct": 10.017,
-        "amount_yuan": 131911733.0,
-        "turnover_pct": 3.01,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "600663",
-        "name": "陆家嘴",
-        "price": 10.11,
-        "change_pct": 10.011,
-        "amount_yuan": 350853700.0,
-        "turnover_pct": 0.93,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "000504",
-        "name": "南华生物",
-        "price": 12.42,
-        "change_pct": 10.009,
-        "amount_yuan": 860444296.0,
-        "turnover_pct": 22.51,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "603200",
-        "name": "上海洗霸",
-        "price": 44.74,
-        "change_pct": 10.007,
-        "amount_yuan": 1063767254.0,
-        "turnover_pct": 13.87,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "600131",
-        "name": "国网信通",
-        "price": 15.39,
-        "change_pct": 10.007,
-        "amount_yuan": 401873347.0,
-        "turnover_pct": 2.25,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "603538",
-        "name": "美诺华",
-        "price": 28.59,
-        "change_pct": 10.004,
-        "amount_yuan": 1324164480.0,
-        "turnover_pct": 14.11,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "605287",
-        "name": "德才股份",
-        "price": 37.39,
-        "change_pct": 10.003,
-        "amount_yuan": 279963778.0,
-        "turnover_pct": 5.47,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "603590",
-        "name": "康辰药业",
-        "price": 32.11,
-        "change_pct": 10.003,
-        "amount_yuan": 193482072.0,
-        "turnover_pct": 3.86,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002962",
-        "name": "五方光电",
-        "price": 16.17,
-        "change_pct": 10.0,
-        "amount_yuan": 557837366.0,
-        "turnover_pct": 17.06,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002041",
-        "name": "登海种业",
-        "price": 10.23,
-        "change_pct": 10.0,
-        "amount_yuan": 339688412.0,
-        "turnover_pct": 3.92,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "605288",
-        "name": "凯迪股份",
-        "price": 71.83,
-        "change_pct": 10.0,
-        "amount_yuan": 208051963.0,
-        "turnover_pct": 3.0,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "605577",
-        "name": "龙版传媒",
-        "price": 16.28,
-        "change_pct": 10.0,
-        "amount_yuan": 165526362.0,
-        "turnover_pct": 2.31,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002316",
-        "name": "亚联发展",
-        "price": 4.95,
-        "change_pct": 10.0,
-        "amount_yuan": 145182371.0,
-        "turnover_pct": 8.7,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002454",
-        "name": "松芝股份",
-        "price": 5.61,
-        "change_pct": 10.0,
-        "amount_yuan": 121091923.0,
-        "turnover_pct": 2.52,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "603127",
-        "name": "昭衍新药",
-        "price": 49.3,
-        "change_pct": 9.996,
-        "amount_yuan": 2647331801.0,
-        "turnover_pct": 8.83,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "603906",
-        "name": "龙蟠科技",
-        "price": 19.04,
-        "change_pct": 9.994,
-        "amount_yuan": 687707894.0,
-        "turnover_pct": 6.57,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "001266",
-        "name": "宏英智能",
-        "price": 39.96,
-        "change_pct": 9.992,
-        "amount_yuan": 309229664.0,
-        "turnover_pct": 13.79,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "600081",
-        "name": "东风科技",
-        "price": 11.89,
-        "change_pct": 9.991,
-        "amount_yuan": 195515214.0,
-        "turnover_pct": 3.0,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "603948",
-        "name": "建业股份",
-        "price": 21.36,
-        "change_pct": 9.99,
-        "amount_yuan": 42141574.0,
-        "turnover_pct": 1.23,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "600825",
-        "name": "新华传媒",
-        "price": 10.35,
-        "change_pct": 9.989,
-        "amount_yuan": 144750256.0,
-        "turnover_pct": 1.34,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "603919",
-        "name": "金徽酒",
-        "price": 17.4,
-        "change_pct": 9.987,
-        "amount_yuan": 215843262.0,
-        "turnover_pct": 2.51,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002755",
-        "name": "奥赛康",
-        "price": 13.55,
-        "change_pct": 9.984,
-        "amount_yuan": 248447517.0,
-        "turnover_pct": 2.03,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "000678",
-        "name": "襄阳轴承",
-        "price": 12.89,
-        "change_pct": 9.983,
-        "amount_yuan": 1074985690.0,
-        "turnover_pct": 19.65,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "001206",
-        "name": "依依股份",
-        "price": 18.62,
-        "change_pct": 9.982,
-        "amount_yuan": 86373023.0,
-        "turnover_pct": 4.35,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "600356",
-        "name": "恒丰纸业",
-        "price": 11.46,
-        "change_pct": 9.981,
-        "amount_yuan": 173476365.0,
-        "turnover_pct": 5.15,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "600592",
-        "name": "龙溪股份",
-        "price": 16.2,
-        "change_pct": 9.98,
-        "amount_yuan": 297115594.0,
-        "turnover_pct": 4.72,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "603188",
-        "name": "亚邦股份",
-        "price": 5.4,
-        "change_pct": 9.98,
-        "amount_yuan": 171759296.0,
-        "turnover_pct": 5.76,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "600072",
-        "name": "中船科技",
-        "price": 9.7,
-        "change_pct": 9.977,
-        "amount_yuan": 424853142.0,
-        "turnover_pct": 4.09,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "000011",
-        "name": "深物业A",
-        "price": 12.24,
-        "change_pct": 9.973,
-        "amount_yuan": 971267913.0,
-        "turnover_pct": 17.07,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "605388",
-        "name": "均瑶健康",
-        "price": 7.39,
-        "change_pct": 9.97,
-        "amount_yuan": 84984113.0,
-        "turnover_pct": 1.92,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002188",
-        "name": "中天服务",
-        "price": 6.4,
-        "change_pct": 9.966,
-        "amount_yuan": 144707999.0,
-        "turnover_pct": 9.13,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "600241",
-        "name": "时代万恒",
-        "price": 9.72,
-        "change_pct": 9.955,
-        "amount_yuan": 74661264.0,
-        "turnover_pct": 2.61,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "000668",
-        "name": "荣丰控股",
-        "price": 18.69,
-        "change_pct": 9.941,
-        "amount_yuan": 145724173.0,
-        "turnover_pct": 5.65,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      },
-      {
-        "code": "002419",
-        "name": "天虹股份",
-        "price": 5.09,
-        "change_pct": 9.935,
-        "amount_yuan": 255385489.0,
-        "turnover_pct": 4.51,
-        "concepts": [
-          "其他涨停"
-        ],
-        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
-      }
-    ]
-  },
-  {
     "trade_date": "2026-10-01",
     "updated_at": "2026-10-01 17:21:37",
     "concept_boards": [
@@ -7195,6 +6465,515 @@
         "change_pct": 9.898,
         "amount_yuan": 213746897.0,
         "turnover_pct": 8.07,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      }
+    ]
+  },
+  {
+    "trade_date": "2026-10-15",
+    "updated_at": "2026-10-15 15:35:09",
+    "concept_boards": [
+      {
+        "concept": "其他涨停",
+        "limit_up_count": 38,
+        "leader": "N联亚",
+        "stocks": [
+          "N联亚",
+          "N莫森",
+          "向日葵",
+          "金禄电子",
+          "万和电气",
+          "尖峰集团",
+          "百洋股份",
+          "华北制药",
+          "百花医药",
+          "皇台酒业",
+          "新宏泽",
+          "新华文轩",
+          "万丰股份",
+          "五芳斋",
+          "吉大正元",
+          "湖南发展",
+          "华林证券",
+          "澳弘电子",
+          "冰山冷热",
+          "上海洗霸",
+          "内蒙新华",
+          "慈文传媒",
+          "上海雅仕",
+          "和泰机电",
+          "众望布艺",
+          "至纯科技",
+          "骏亚科技",
+          "世龙实业",
+          "天津普林",
+          "富春染织",
+          "崇达技术",
+          "阳光乳业",
+          "远大控股",
+          "东方嘉盛",
+          "广博股份",
+          "嘉诚国际",
+          "读者传媒",
+          "华阳新材"
+        ]
+      }
+    ],
+    "limit_up_stocks": [
+      {
+        "code": "301569",
+        "name": "N联亚",
+        "price": 35.12,
+        "change_pct": 401.714,
+        "amount_yuan": 2978500206.0,
+        "turnover_pct": 79.79,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "920162",
+        "name": "N莫森",
+        "price": 32.53,
+        "change_pct": 87.277,
+        "amount_yuan": 486059101.0,
+        "turnover_pct": 95.32,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "300111",
+        "name": "向日葵",
+        "price": 3.71,
+        "change_pct": 20.065,
+        "amount_yuan": 852999783.0,
+        "turnover_pct": 18.78,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "301282",
+        "name": "金禄电子",
+        "price": 49.92,
+        "change_pct": 20.0,
+        "amount_yuan": 558033204.0,
+        "turnover_pct": 6.56,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "002543",
+        "name": "万和电气",
+        "price": 7.88,
+        "change_pct": 10.056,
+        "amount_yuan": 287701338.0,
+        "turnover_pct": 5.56,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "600668",
+        "name": "尖峰集团",
+        "price": 7.99,
+        "change_pct": 10.055,
+        "amount_yuan": 269210913.0,
+        "turnover_pct": 8.3,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "002696",
+        "name": "百洋股份",
+        "price": 10.73,
+        "change_pct": 10.051,
+        "amount_yuan": 781879528.0,
+        "turnover_pct": 22.37,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "600812",
+        "name": "华北制药",
+        "price": 6.57,
+        "change_pct": 10.05,
+        "amount_yuan": 2115357572.0,
+        "turnover_pct": 19.48,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "600721",
+        "name": "百花医药",
+        "price": 12.05,
+        "change_pct": 10.046,
+        "amount_yuan": 677157971.0,
+        "turnover_pct": 15.01,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "000995",
+        "name": "皇台酒业",
+        "price": 13.37,
+        "change_pct": 10.041,
+        "amount_yuan": 343211046.0,
+        "turnover_pct": 14.97,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "002836",
+        "name": "新宏泽",
+        "price": 11.85,
+        "change_pct": 10.028,
+        "amount_yuan": 100617792.0,
+        "turnover_pct": 3.87,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "601811",
+        "name": "新华文轩",
+        "price": 25.58,
+        "change_pct": 10.022,
+        "amount_yuan": 1566969940.0,
+        "turnover_pct": 8.09,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603172",
+        "name": "万丰股份",
+        "price": 20.53,
+        "change_pct": 10.021,
+        "amount_yuan": 97926517.0,
+        "turnover_pct": 3.8,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603237",
+        "name": "五芳斋",
+        "price": 16.47,
+        "change_pct": 10.02,
+        "amount_yuan": 141841182.0,
+        "turnover_pct": 4.61,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "003029",
+        "name": "吉大正元",
+        "price": 19.99,
+        "change_pct": 10.017,
+        "amount_yuan": 292119586.0,
+        "turnover_pct": 8.44,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "000722",
+        "name": "湖南发展",
+        "price": 13.95,
+        "change_pct": 10.016,
+        "amount_yuan": 346250991.0,
+        "turnover_pct": 5.44,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "002945",
+        "name": "华林证券",
+        "price": 15.39,
+        "change_pct": 10.007,
+        "amount_yuan": 1226005804.0,
+        "turnover_pct": 3.01,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "605058",
+        "name": "澳弘电子",
+        "price": 70.49,
+        "change_pct": 10.003,
+        "amount_yuan": 1488855966.0,
+        "turnover_pct": 15.33,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "000530",
+        "name": "冰山冷热",
+        "price": 6.93,
+        "change_pct": 10.0,
+        "amount_yuan": 1697317801.0,
+        "turnover_pct": 41.05,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603200",
+        "name": "上海洗霸",
+        "price": 53.35,
+        "change_pct": 10.0,
+        "amount_yuan": 1268184170.0,
+        "turnover_pct": 14.6,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603230",
+        "name": "内蒙新华",
+        "price": 14.52,
+        "change_pct": 10.0,
+        "amount_yuan": 934846572.0,
+        "turnover_pct": 18.74,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "002343",
+        "name": "慈文传媒",
+        "price": 8.91,
+        "change_pct": 10.0,
+        "amount_yuan": 681668185.0,
+        "turnover_pct": 16.17,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603329",
+        "name": "上海雅仕",
+        "price": 11.33,
+        "change_pct": 10.0,
+        "amount_yuan": 230174353.0,
+        "turnover_pct": 10.37,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "001225",
+        "name": "和泰机电",
+        "price": 38.5,
+        "change_pct": 10.0,
+        "amount_yuan": 223733107.0,
+        "turnover_pct": 6.56,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "605003",
+        "name": "众望布艺",
+        "price": 25.96,
+        "change_pct": 10.0,
+        "amount_yuan": 65485334.0,
+        "turnover_pct": 2.37,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603690",
+        "name": "至纯科技",
+        "price": 23.77,
+        "change_pct": 9.995,
+        "amount_yuan": 909691475.0,
+        "turnover_pct": 10.32,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603386",
+        "name": "骏亚科技",
+        "price": 20.25,
+        "change_pct": 9.995,
+        "amount_yuan": 480281967.0,
+        "turnover_pct": 7.58,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "002748",
+        "name": "世龙实业",
+        "price": 13.65,
+        "change_pct": 9.992,
+        "amount_yuan": 404243347.0,
+        "turnover_pct": 13.2,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "002134",
+        "name": "天津普林",
+        "price": 24.34,
+        "change_pct": 9.986,
+        "amount_yuan": 647137324.0,
+        "turnover_pct": 10.95,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "605189",
+        "name": "富春染织",
+        "price": 17.85,
+        "change_pct": 9.982,
+        "amount_yuan": 724182159.0,
+        "turnover_pct": 17.1,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "002815",
+        "name": "崇达技术",
+        "price": 23.25,
+        "change_pct": 9.981,
+        "amount_yuan": 321343272.0,
+        "turnover_pct": 1.78,
+        "concepts": [
+          "PCB"
+        ],
+        "limit_reason": "AI服务器与高速连接需求改善，PCB/铜连接方向走强"
+      },
+      {
+        "code": "001318",
+        "name": "阳光乳业",
+        "price": 16.97,
+        "change_pct": 9.981,
+        "amount_yuan": 300750817.0,
+        "turnover_pct": 6.33,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "000626",
+        "name": "远大控股",
+        "price": 9.15,
+        "change_pct": 9.976,
+        "amount_yuan": 348325767.0,
+        "turnover_pct": 7.7,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "002889",
+        "name": "东方嘉盛",
+        "price": 13.01,
+        "change_pct": 9.975,
+        "amount_yuan": 158893650.0,
+        "turnover_pct": 5.01,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "002103",
+        "name": "广博股份",
+        "price": 7.5,
+        "change_pct": 9.971,
+        "amount_yuan": 295004098.0,
+        "turnover_pct": 10.21,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603535",
+        "name": "嘉诚国际",
+        "price": 6.73,
+        "change_pct": 9.967,
+        "amount_yuan": 125921716.0,
+        "turnover_pct": 3.73,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "603999",
+        "name": "读者传媒",
+        "price": 7.62,
+        "change_pct": 9.957,
+        "amount_yuan": 140388812.0,
+        "turnover_pct": 3.26,
+        "concepts": [
+          "其他涨停"
+        ],
+        "limit_reason": "单股事件、低位补涨或暂未归入主线概念"
+      },
+      {
+        "code": "600281",
+        "name": "华阳新材",
+        "price": 5.21,
+        "change_pct": 9.916,
+        "amount_yuan": 276508284.0,
+        "turnover_pct": 10.58,
         "concepts": [
           "其他涨停"
         ],
